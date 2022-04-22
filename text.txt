@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mynthra</title>
+        <link rel="stylesheet" href="css/mynthra.css" />
+        <link rel="stylesheet" href="css/mynthraplugcss.css" />
+        <script src="js/bootstrappluginjs.js"></script>
+        <script src="js/icon.js"></script>
+    </head>
+
+    <body class="body">
+        <nav class="navbar navbar-expand-sm navbar-light border-bottom">
+            <div class="mx-4">
+                <img src="assets/images/logo.png">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <div class="mx-4 heading" id="hovermen"><b>Men</b>
+                    <div class="row roww disp1 container">
+                        <div class="col-3">
+                            <div class="text-danger heading">Top Wear</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-3">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-4 heading hovermenn"><b>Women</b>
+                    <div class="row roww disp1 container">
+                        <div class="col-3">
+                            <div class="text-danger heading">Top Wear</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-3">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-4 heading hovermenn"><b>Kids</b>
+                    <div class="row roww disp1 container">
+                        <div class="col-3">
+                            <div class="text-danger heading">Top Wear</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-3">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-4 heading hovermenn"><b>Home&Living</b>
+                    <div class="row roww disp1 container">
+                        <div class="col-3">
+                            <div class="text-danger heading">Top Wear</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-3">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-4 heading hovermenn"><b>Beauty</b>
+                    <div class="row roww disp1 container">
+                        <div class="col-3">
+                            <div class="text-danger heading">Top Wear</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-3">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="text-danger">Top Wear</div>
+                            <div>T-Shirts</div>
+                            <div> Casual Shirts</div>
+                            <div> Formal Shirts</div>
+                            <div> Sweatshirts</div>
+                            <div> Sweaters</div>
+                            <div> Jackets</div>
+                            <div> Blazers & Coats</div>
+                            <div> Suits</div>
+                            <div> Rain Jackets</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-4 heading"><b>Studio</b><sup class="text-danger">New</sup></div>
+                <div class="input1 container">
+                    <input type="search" class=" p-2 " placeholder="search for products and more">
+                    <i class=" fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="mx-1">
+                    <i class="fa-solid fa-user p-4 col-sm "><span class="under">Profile</span></i>
+                </div>
+                <div class="mx-1">
+                    <i class="fa-solid fa-heart  p-4 col-sm "><span class="under1">Wishlist</span></i>
+                </div>
+                <div class="mx-1">
+                    <i class="fa-solid fa-bag-shopping p-4 col-sm "><span class="under2">Bag</span></i>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid mx-2 p-2">
+            <span class="home">Home/</span>
+            <span class="home">Clothing/</span>
+            <span class="home">Men Clothing/</span>
+            <span class="home">T-shirts</span>
+            <span class="hrithi"><b>HRX By Hrithik Roshan Tshirts</b></span>
+            <span>></span>
+            <span class="hrithi"><b>More By HRX By Hrithik Roshan</b></span>
+        </div>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="row row-cols-2">
+                        <div class=" mainimg col-md-6 col-12 mt-2">
+                            <img class="hrithik11 hoverzoom" src="assets/images/hrithik.jpeg">
+                        </div>
+                        <div class="mainimg col-md-6 col-12 mt-2">
+                            <img class="hrithik12" src="assets/images/hrithik2.jpeg">
+                        </div>
+                        <div class="mainimg col-md-6 mt-2 col-12">
+                            <img class="hrithik11" src="assets/images/hrithik3.jpeg">
+                        </div>
+                        <div class="mainimg col-md-6 mt-2 col-12">
+                            <img class="hrithik11" src="assets/images/hithik4.jpeg">
+                        </div>
+                        <div class="mainimg col-md-6 col-12 mt-2">
+                            <img class="hrithik11" src="assets/images/hrithik3.jpeg">
+                        </div>
+                        <div class="mainimg col-md-6 col-12 mt-2">
+                            <img class="hrithik11" src="assets/images/hithik4.jpeg">
+                        </div>
+                        <div class="mainimg col-md-6 col-12 mt-2">
+                            <img class="hrithik11" src="assets/images/hithik4.jpeg">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="container text-start fs-4"><b> HRX by Hrithik Roshan</b>
+                    </div>
+                    <div class="container opacity-50 mb-2">Men Teal Blue Printed Pure Cotton T-shirt</div>
+                    <span class="container border mx-4">
+                        <span><b>4.3</b></span>
+                        <i class=" fa-solid fa-star star my-2"></i>
+                        <span class="opacity-50">|37.1k Ratings
+                        </span>
+                    </span>
+                    <hr class=" mb-2">
+                    <div class="container all fs-5"><b>Rs. 384</b>
+                        <span class="opacity-50"><del>389</del></span>
+                        <span class="text-warning fs-5"><b>(45% OFF)</b></span>
+                        <div class=" text-success incl mt-1 text-weight-lighter">inclusive of all taxes</div>
+                    </div>
+                    <div class="container mt-3"><b>SELECT SIZE</b>
+                        <span class="mx-4 text-danger size">SIZE CHART
+                            <i class="fa-solid fa-angle-right"></i>
+                        </span>
+                    </div>
+                    <div class="container-lg cir mt-4">
+
+                        <span class="circle  mx-1">S
+                        </span>
+                        <span class="circle mx-1">M
+                        </span>
+                        <span class="col-3 circle mx-1">L
+                        </span>
+                        <span class="col-3 circlee mx-1">XL
+                        </span>
+                        <span class="col-3 circle mx-1 opacity-50"><del>XL</del2>
+                        </span>
+                    </div>
+                    <div class="container-xl mt-5">
+                        <button type="button" class="btn btn-lg px-3 py-3 mr-3  btn-danger"> <i
+                                class="fa-solid fa-bag-shopping mx-4 col-sm "></i>Add To Bag</button>
+                        <button type="button" class="btn btn-lg px-3 py-3  mr-3 mx0-2 btn-light border"> <i
+                                class="fa-solid fa-heart fa-heart  mx-4  col-sm "></i>Wishlist</button>
+                    </div>
+                    <div class="container fs-5 mt-3">Delivery Option<i class="fa-solid fa-truck mx-2"></i>
+                    </div>
+                    <div class=" container-lg input-group checkmain mt-3">
+                        <input type="search" class="form-control rounded" placeholder="Enter a PIN Code"
+                            aria-label="Search" aria-describedby="search-addon" />
+                        <span class="check opacity-50">CHECK</span>
+                    </div>
+                    <div class="container mt-2 pin opacity-75">Please enter PIN code to check delivery time & Pay on
+                        Delivery
+                        Availability
+                    </div>
+                    <div class="container mt-2 opacity-75">100% Original Products </div>
+                    <div class="container  opacity-75"> Pay on delivery might be available</div>
+                    <div class="container  opacity-75"> Easy 30 days returns and exchanges</div>
+                    <div class="container  opacity-75"> Try & Buy might be available</div>
+                    <div class="container mt-4 fw-bold">BEST OFFERS<i class="fa-solid fa-tag mx-1"></i></div>
+                    <div class="container  mt-2 fw-bold">Best Price: <span class="text-warning">Rs. 288</span></div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.min.js">
+        </script>
+        <script src="js/mynthra.js"></script>
+    </body>
+
+</html>

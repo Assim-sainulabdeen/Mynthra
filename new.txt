@@ -1,0 +1,123 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-white" id="header">
+            <div class="container-fluid">
+                <a class="navbar-brand" id="logo" href="#">
+                    <img src="assets/images/logo.png" class="ms-5" alt="Mynthra_logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav gap-4">
+                    <li class="nav-item men">
+                        <a class="nav-link active" href="#"><strong>MEN</strong></a>
+                    </li>
+                    <li class="nav-item women">
+                        <a class="nav-link active" href="#"><strong>WOMEN</strong></a>
+                    </li>
+                    <li class="nav-item kids">
+                        <a class="nav-link active" href="#"><strong>KIDS</strong></a>
+                    </li>
+                    <li class="nav-item home">
+                        <a class="nav-link active" href="#"><strong>HOME & LIVING</strong></a>
+                    </li>
+                    <li class="nav-item beauty">
+                        <a class="nav-link active" href="#"><strong>BEAUTY</strong></a>
+                    </li>
+                    <li class="nav-item studio">
+                        <a class="nav-link active" href="#"><strong>STUDIO<sup class="new">NEW</sup></strong></a>
+                    </li>
+                    </ul>
+                    <form class="d-flex form me-5" id="form">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input id="search" class="form-control" type="text" placeholder="Search for products, brands and more">
+                    </form>
+                    <ul class="navbar-nav mx-0 gap-4 nav2">
+                        <li  class="nav-item men">
+                            .<span><i class="fa-solid  fa-lg fa-user"></i></span><br>
+                            <span>profile</span>
+                        </li>
+                        <li  class="nav-item">
+                            <i class="fa-solid fa-bag-shopping"></i><br>
+                            <span>Bag</span>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa-regular  fa-heart"></i><br>
+                            <span>Wishlist</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        /* body{
+    font-family:sans-serif;
+}
+#header{
+    box-shadow:2px 2px 2px rgb(202, 196, 196);
+    padding: 0 ;
+    
+}
+#mynavbar{
+    align-items: initial;
+}
+.new{
+    color:#ff69b4;
+    font-size: 10px;
+}
+.nav-item{
+    font-size: 14px;
+    height: inherit;
+    padding-bottom: 16px;
+}
+#form{
+    height: 50%;
+    margin-top: 22px;
+}
+.form{
+    border: none;
+    border-radius: 5px;
+    width: 29%;
+    background: #f5f5f6;
+    align-items: center;
+}
+#form:focus{
+    background-color: #fff;
+}
+#logo{
+    padding-top:0;
+    margin-top: 0;
+}
+.navbar-nav{
+    margin-right: 5rem;
+    padding-top: 22px
+}
+.fa-magnifying-glass{
+    padding: 0 10px;
+    color: #ced4da;
+}
+
+#search{
+    background: #f5f5f6;
+    border: none;
+    outline:none;
+}
+#search:focus{
+    background-color: white;
+    border: none;
+    outline: none;
+}
+span{
+    font-size: 12px;
+}
+.nav2{
+    text-align: center;
+}
+
+.nav2 .nav-item{
+    font-size: 16px;
+}
+.men:hover{
+    border-bottom: 5px solid #ee5f73;
+ 
+} */
