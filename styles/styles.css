@@ -23,7 +23,6 @@ div .imagePadding {
 .img-transition {
   cursor: zoom-in;
   transition: transform 0.4s;
-  will-change: transform;
 }
 .img-transition:hover {
   transform: scale(1.02);
@@ -235,8 +234,123 @@ hr {
 .paraDetails {
   margin-bottom: 2px;
 }
-@media screen and (max-width: 576px) {
-  div .imagePadding {
-    margin-top: 8px;
-  }
+.horizontalRule{
+  margin-top: 6px;
+  opacity: 0.8;
+  color: #eaeaec;
+}
+.specs-tag{
+  margin-bottom: 3px;
+}
+.seeMore{
+  margin-top: 20px;
+  width: 96%;
+}
+
+#review{
+  margin-top: 15px;
+}
+
+.reviewRating{
+  font-size: 48px;
+}
+.reviewIcon .fa-star{
+  margin-left: 10px;
+  font-size: 20px;
+}
+.reviewCount{
+  font-size: 14px;
+}
+.reviewBorder{
+  border-right: 1px solid #eaeaec;
+}
+.iconShow{
+  opacity: 0.8;
+}
+.ratingStar .fa-star{
+  font-size: 10px;
+  color:#a9abb3;
+}
+.progressBar{
+  vertical-align: middle;
+  margin-left: 3px;
+  margin-top: 6px;
+  width: 50%;
+}
+.progressBar .progress{
+  height: 4px;
+  width: 100%;
+  margin-top: 3px;
+}
+.progress .progress-bar{
+  width: 60%;
+  background-color: #14958f;
+}
+.progress2 .progress-bar{
+  width: 20%;
+}
+.progress3 .progress-bar{
+  width: 10%;
+  background-color: #72bfbc;
+}
+.progress4 .progress-bar{
+  width: 5%;
+  background-color: #fcb301;
+}
+.progress5 .progress-bar{
+  width: 8%;
+  background-color: #f16565;
+}
+.ratingText{
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.ratingTextCount{
+  font-size: 12px;
+}
+.progressBar2{
+  width: 100%;
+}
+.progressBar2 .progress{
+ width: 90%;
+}
+
+#customerReview{
+ padding-right: 0;
+}
+#customerReview2{
+  padding-left: 0;
+  margin-top: 11px;
+}
+.progressBar3 .progress-bar{
+  width: 70%;
+}
+
+.review{
+  color: white;
+  background-color: #72bfbc;
+  font-size: 10px;
+  padding: 0 4px;
+}
+
+.review .fa-star{
+  color:white;
+  font-size: 8px;
+}
+
+.userRating{
+  width: 10%;
+}
+.userReview{
+  width: 90%;
+}
+.clear{
+  clear: both;
+}
+.horiozontalRule{
+  width: 100%;
+}
+.like{
+  transform: rotate(180deg);
 }
