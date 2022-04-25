@@ -129,14 +129,16 @@ ul li .men-tag:hover {
 }
 
 .container-m {
+  border: 1px solid black;
   margin-top: 15px;
-  box-shadow: 0 4px 4px #9b9ea1;
+  box-shadow: 0 4px 12px #9b9ea1;
   transition: all 0.2s ease-out;
   display: none;
 }
 .bg-color {
   background-color: #fbfbfb;
 }
-.men:hover .container-m {
-  display: block;
+
+.men:hover .container-men {
+  display: flex;
 }
