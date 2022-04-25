@@ -354,3 +354,15 @@ hr {
 .like{
   transform: rotate(180deg);
 }
+.sellerDetails{
+  margin-bottom: 8px;
+}
+.fontWeight{
+  font-weight: 500;
+}
+.cardTextColor{
+  color: #535766;
+}
+h5.card-title{
+  margin-bottom: 4px;
+}
