@@ -10,33 +10,504 @@
         <link href="styles/bootstrap_css.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigation">
-            <div class="container-fluid justify-content-lg-between justify-content-start">
-                <a class="navbar-brand px-3 " href="#" id="logo">
-                    <img src="assets/images/logo.png"  alt="logo-image">
-                </a>
-                <div class="offcanvas d-lg-none d-block offcanvas-start offcanvasMenu" id="demo">
-                    <div class="offcanvas-header">
-                      <div class="offcanvas-title">
-                        <img src="assets/images/logo.png" class="ps-4" alt="logo-image">
-                      </div>
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        <div class="container-fluid">
+            <div class="navbar navbar-expand-lg fixed-top navbar-light bg-white" id="header">
+                <div class="container-fluid justify-content-lg-between justify-content-start">
+                    <div class="navbar-brand pointer" href="#" id="logo">
+                        <img src="assets/images/logo.png" alt="Mynthra_logo" id="image">
                     </div>
-                    <div class="offcanvas-body">
-                       <div class="container">
-                        <a class="nav-link color-black active" aria-current="page" href="#"><b>MEN</b></a>
-                        <a class="nav-link color-black  active" aria-current="page" href="#"><b>WOMEN</b></a>
-                        <a class="nav-link color-black active" aria-current="page" href="#"><b>KIDS</b></a>
-                        <a class="nav-link color-black active" aria-current="page" href="#"><b>HOME&LIVING</b></a>
-                        <a class="nav-link color-black active" aria-current="page" href="#"><b>BEAUTY</b></a>
-                        <a class="nav-link color-black active" aria-current="page" href="#"><b>STUDIO</b></a>
-                       </div>
+                    <div class="offcanvas d-lg-none d-block offcanvas-start offcanvasMenu" id="demo">
+                        <div class="offcanvas-header">
+                          <div class="offcanvas-title">
+                            <img src="assets/images/logo.png" class="ps-4" alt="logo-image">
+                          </div>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                           <div class="container">
+                            <a class="nav-link color-black active" aria-current="page" href="#"><b>MEN</b></a>
+                            <a class="nav-link color-black  active" aria-current="page" href="#"><b>WOMEN</b></a>
+                            <a class="nav-link color-black active" aria-current="page" href="#"><b>KIDS</b></a>
+                            <a class="nav-link color-black active" aria-current="page" href="#"><b>HOME&LIVING</b></a>
+                            <a class="nav-link color-black active" aria-current="page" href="#"><b>BEAUTY</b></a>
+                            <a class="nav-link color-black active" aria-current="page" href="#"><b>STUDIO</b></a>
+                           </div>
+                        </div>
+                    </div>
+                    <button  class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="navbar-nav me-5 justify-content-around">
+                            <li class="nav-item men pointer">
+                                <a class="nav-link active " href="#">
+                                    <strong>MEN</strong>
+                                    <div class="container men-dress-details">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div><b>TopWear</b></div>
+                                                <div>T-Shirts</div>
+                                                <div>Casual Shirts</div>
+                                                <div> Formal Shirts</div>
+                                                <div> Sweatshirts</div>
+                                                <div> Sweaters</div>
+                                                <div>Jackets</div>
+                                                <div>Blazers & Coats</div>
+                                                <div> Suits</div>
+                                                <div>Rain Jackets</div>
+                                                <div><b>Indian Festive Wear</b></div>
+                                                <div>Kurtas & Kurta Sets</div>
+                                                <div>Sherwanis</div>
+                                                <div>Nehru Jackets</div>
+                                                <div>Dhotis</div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Bottom Wear</b></div>
+                                                <div>Jeans</div>
+                                                <div>Casual Trousers</div>
+                                                <div>Formal Trousers</div>     
+                                                <div>Shorts</div>
+                                                <div><b>Innerwear & SleepWears</b></div>
+                                                <div>Briefs & Trunks</div>
+                                                <div>Boxers</div>
+                                                <div>Vests</div>
+                                                <div>Sleepwear & Loungewear</div>
+                                                <div>Thermals</div>
+                                                <div><b>Plus Size</b></div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Foot Wear</b></div>
+                                                <div>Casual Shoes</div>
+                                                <div>Sports Shoes</div>
+                                                <div>Formal Shoes</div>     
+                                                <div>Sneakers</div>
+                                                <div>Sandals & Floaters</div>
+                                                <div>Flip Flops</div>
+                                                <div>Socks</div>
+                                                <div><b>Personal Care & Grooming</b></div>
+                                                <div><b>Sunglasses & Frames</b></div>
+                                                <div><b>Watches</b></div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Sports & Active Wear</b></div>
+                                                <div>Sports Shoes</div>
+                                                <div>Sports Sandals</div>
+                                                <div>Active T-Shirts</div>     
+                                                <div>Track Pants & Shorts</div>
+                                                <div>Tracksuits</div>
+                                                <div>Jackets & Sweatshirts</div>
+                                                <div>Sports Accessories</div>
+                                                <div>Swimwear</div>
+                                                <div><b>Gadgets</b></div>
+                                                <div>Fitness Gadgets</div>
+                                                <div>Headphones</div>
+                                                <div>Speakers</div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Fashion Accessories</b></div>
+                                                <div>Wallets</div>
+                                                <div>Belts</div>
+                                                <div>Perfumes & Body Mists</div>     
+                                                <div>Trimmers</div>
+                                                <div>Deodorants</div>
+                                                <div>Ties, Cufflinks & Pocket Squares</div>
+                                                <div>Accessory Gift Sets</div>
+                                                <div>Caps & Hats</div>
+                                                <div>Mufflers, Scarves & Gloves</div>
+                                                <div>Phone Cases</div>
+                                                <div>Rings & Wristwear</div>
+                                                <div>Helmets</div>
+                                                <div><b>Bags & Backpacks</b></div>
+                                                <div><b>Luggages & Trolleys</b></div>
+                                            </div>
+                                        </div>
+                                    </div>                
+                                </a>
+                            </li>
+                            <li class="nav-item women pointer">
+                                <a class="nav-link active" href="#">
+                                    <strong>WOMEN</strong>
+                                    <div class="container men-dress-details">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div><b>TopWear</b></div>
+                                                <div>T-Shirts</div>
+                                                <div>Casual Shirts</div>
+                                                <div> Formal Shirts</div>
+                                                <div> Sweatshirts</div>
+                                                <div> Sweaters</div>
+                                                <div>Jackets</div>
+                                                <div>Blazers & Coats</div>
+                                                <div> Suits</div>
+                                                <div>Rain Jackets</div>
+                                                <div><b>Indian Festive Wear</b></div>
+                                                <div>Kurtas & Kurta Sets</div>
+                                                <div>Sherwanis</div>
+                                                <div>Nehru Jackets</div>
+                                                <div>Dhotis</div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Bottom Wear</b></div>
+                                                <div>Jeans</div>
+                                                <div>Casual Trousers</div>
+                                                <div>Formal Trousers</div>     
+                                                <div>Shorts</div>
+                                                <div><b>Innerwear & SleepWears</b></div>
+                                                <div>Briefs & Trunks</div>
+                                                <div>Boxers</div>
+                                                <div>Vests</div>
+                                                <div>Sleepwear & Loungewear</div>
+                                                <div>Thermals</div>
+                                                <div><b>Plus Size</b></div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Foot Wear</b></div>
+                                                <div>Casual Shoes</div>
+                                                <div>Sports Shoes</div>
+                                                <div>Formal Shoes</div>     
+                                                <div>Sneakers</div>
+                                                <div>Sandals & Floaters</div>
+                                                <div>Flip Flops</div>
+                                                <div>Socks</div>
+                                                <div><b>Personal Care & Grooming</b></div>
+                                                <div><b>Sunglasses & Frames</b></div>
+                                                <div><b>Watches</b></div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Sports & Active Wear</b></div>
+                                                <div>Sports Shoes</div>
+                                                <div>Sports Sandals</div>
+                                                <div>Active T-Shirts</div>     
+                                                <div>Track Pants & Shorts</div>
+                                                <div>Tracksuits</div>
+                                                <div>Jackets & Sweatshirts</div>
+                                                <div>Sports Accessories</div>
+                                                <div>Swimwear</div>
+                                                <div><b>Gadgets</b></div>
+                                                <div>Fitness Gadgets</div>
+                                                <div>Headphones</div>
+                                                <div>Speakers</div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Fashion Accessories</b></div>
+                                                <div>Wallets</div>
+                                                <div>Belts</div>
+                                                <div>Perfumes & Body Mists</div>     
+                                                <div>Trimmers</div>
+                                                <div>Deodorants</div>
+                                                <div>Ties, Cufflinks & Pocket Squares</div>
+                                                <div>Accessory Gift Sets</div>
+                                                <div>Caps & Hats</div>
+                                                <div>Mufflers, Scarves & Gloves</div>
+                                                <div>Phone Cases</div>
+                                                <div>Rings & Wristwear</div>
+                                                <div>Helmets</div>
+                                                <div><b>Bags & Backpacks</b></div>
+                                                <div><b>Luggages & Trolleys</b></div>
+                                            </div>
+                                        </div>
+                                    </div>     
+                                </a>
+                            </li>
+    
+                            <li class="nav-item kids pointer">
+                                <a class="nav-link active" href="#">
+                                    <strong>KIDS</strong>
+                                    <div class="container men-dress-details">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div><b>TopWear</b></div>
+                                                <div>T-Shirts</div>
+                                                <div>Casual Shirts</div>
+                                                <div> Formal Shirts</div>
+                                                <div> Sweatshirts</div>
+                                                <div> Sweaters</div>
+                                                <div>Jackets</div>
+                                                <div>Blazers & Coats</div>
+                                                <div> Suits</div>
+                                                <div>Rain Jackets</div>
+                                                <div><b>Indian Festive Wear</b></div>
+                                                <div>Kurtas & Kurta Sets</div>
+                                                <div>Sherwanis</div>
+                                                <div>Nehru Jackets</div>
+                                                <div>Dhotis</div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Bottom Wear</b></div>
+                                                <div>Jeans</div>
+                                                <div>Casual Trousers</div>
+                                                <div>Formal Trousers</div>     
+                                                <div>Shorts</div>
+                                                <div><b>Innerwear & SleepWears</b></div>
+                                                <div>Briefs & Trunks</div>
+                                                <div>Boxers</div>
+                                                <div>Vests</div>
+                                                <div>Sleepwear & Loungewear</div>
+                                                <div>Thermals</div>
+                                                <div><b>Plus Size</b></div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Foot Wear</b></div>
+                                                <div>Casual Shoes</div>
+                                                <div>Sports Shoes</div>
+                                                <div>Formal Shoes</div>     
+                                                <div>Sneakers</div>
+                                                <div>Sandals & Floaters</div>
+                                                <div>Flip Flops</div>
+                                                <div>Socks</div>
+                                                <div><b>Personal Care & Grooming</b></div>
+                                                <div><b>Sunglasses & Frames</b></div>
+                                                <div><b>Watches</b></div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Sports & Active Wear</b></div>
+                                                <div>Sports Shoes</div>
+                                                <div>Sports Sandals</div>
+                                                <div>Active T-Shirts</div>     
+                                                <div>Track Pants & Shorts</div>
+                                                <div>Tracksuits</div>
+                                                <div>Jackets & Sweatshirts</div>
+                                                <div>Sports Accessories</div>
+                                                <div>Swimwear</div>
+                                                <div><b>Gadgets</b></div>
+                                                <div>Fitness Gadgets</div>
+                                                <div>Headphones</div>
+                                                <div>Speakers</div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Fashion Accessories</b></div>
+                                                <div>Wallets</div>
+                                                <div>Belts</div>
+                                                <div>Perfumes & Body Mists</div>     
+                                                <div>Trimmers</div>
+                                                <div>Deodorants</div>
+                                                <div>Ties, Cufflinks & Pocket Squares</div>
+                                                <div>Accessory Gift Sets</div>
+                                                <div>Caps & Hats</div>
+                                                <div>Mufflers, Scarves & Gloves</div>
+                                                <div>Phone Cases</div>
+                                                <div>Rings & Wristwear</div>
+                                                <div>Helmets</div>
+                                                <div><b>Bags & Backpacks</b></div>
+                                                <div><b>Luggages & Trolleys</b></div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </a>
+                            </li>
+
+                            <li class="nav-item home pointer">
+                                <a class="nav-link active" href="#">
+                                    <strong>HOME & LIVING</strong>
+                                    <div class="container men-dress-details">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div><b>TopWear</b></div>
+                                                <div>T-Shirts</div>
+                                                <div>Casual Shirts</div>
+                                                <div> Formal Shirts</div>
+                                                <div> Sweatshirts</div>
+                                                <div> Sweaters</div>
+                                                <div>Jackets</div>
+                                                <div>Blazers & Coats</div>
+                                                <div> Suits</div>
+                                                <div>Rain Jackets</div>
+                                                <div><b>Indian Festive Wear</b></div>
+                                                <div>Kurtas & Kurta Sets</div>
+                                                <div>Sherwanis</div>
+                                                <div>Nehru Jackets</div>
+                                                <div>Dhotis</div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Bottom Wear</b></div>
+                                                <div>Jeans</div>
+                                                <div>Casual Trousers</div>
+                                                <div>Formal Trousers</div>     
+                                                <div>Shorts</div>
+                                                <div><b>Innerwear & SleepWears</b></div>
+                                                <div>Briefs & Trunks</div>
+                                                <div>Boxers</div>
+                                                <div>Vests</div>
+                                                <div>Sleepwear & Loungewear</div>
+                                                <div>Thermals</div>
+                                                <div><b>Plus Size</b></div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Foot Wear</b></div>
+                                                <div>Casual Shoes</div>
+                                                <div>Sports Shoes</div>
+                                                <div>Formal Shoes</div>     
+                                                <div>Sneakers</div>
+                                                <div>Sandals & Floaters</div>
+                                                <div>Flip Flops</div>
+                                                <div>Socks</div>
+                                                <div><b>Personal Care & Grooming</b></div>
+                                                <div><b>Sunglasses & Frames</b></div>
+                                                <div><b>Watches</b></div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Sports & Active Wear</b></div>
+                                                <div>Sports Shoes</div>
+                                                <div>Sports Sandals</div>
+                                                <div>Active T-Shirts</div>     
+                                                <div>Track Pants & Shorts</div>
+                                                <div>Tracksuits</div>
+                                                <div>Jackets & Sweatshirts</div>
+                                                <div>Sports Accessories</div>
+                                                <div>Swimwear</div>
+                                                <div><b>Gadgets</b></div>
+                                                <div>Fitness Gadgets</div>
+                                                <div>Headphones</div>
+                                                <div>Speakers</div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Fashion Accessories</b></div>
+                                                <div>Wallets</div>
+                                                <div>Belts</div>
+                                                <div>Perfumes & Body Mists</div>     
+                                                <div>Trimmers</div>
+                                                <div>Deodorants</div>
+                                                <div>Ties, Cufflinks & Pocket Squares</div>
+                                                <div>Accessory Gift Sets</div>
+                                                <div>Caps & Hats</div>
+                                                <div>Mufflers, Scarves & Gloves</div>
+                                                <div>Phone Cases</div>
+                                                <div>Rings & Wristwear</div>
+                                                <div>Helmets</div>
+                                                <div><b>Bags & Backpacks</b></div>
+                                                <div><b>Luggages & Trolleys</b></div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </a>
+                            </li>
+    
+                            <li class="nav-item beauty pointer">
+                                <a class="nav-link active" href="#">
+                                    <strong>BEAUTY</strong>
+                                    <div class="container men-dress-details">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div><b>TopWear</b></div>
+                                                <div>T-Shirts</div>
+                                                <div>Casual Shirts</div>
+                                                <div> Formal Shirts</div>
+                                                <div> Sweatshirts</div>
+                                                <div> Sweaters</div>
+                                                <div>Jackets</div>
+                                                <div>Blazers & Coats</div>
+                                                <div> Suits</div>
+                                                <div>Rain Jackets</div>
+                                                <div><b>Indian Festive Wear</b></div>
+                                                <div>Kurtas & Kurta Sets</div>
+                                                <div>Sherwanis</div>
+                                                <div>Nehru Jackets</div>
+                                                <div>Dhotis</div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Bottom Wear</b></div>
+                                                <div>Jeans</div>
+                                                <div>Casual Trousers</div>
+                                                <div>Formal Trousers</div>     
+                                                <div>Shorts</div>
+                                                <div><b>Innerwear & SleepWears</b></div>
+                                                <div>Briefs & Trunks</div>
+                                                <div>Boxers</div>
+                                                <div>Vests</div>
+                                                <div>Sleepwear & Loungewear</div>
+                                                <div>Thermals</div>
+                                                <div><b>Plus Size</b></div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Foot Wear</b></div>
+                                                <div>Casual Shoes</div>
+                                                <div>Sports Shoes</div>
+                                                <div>Formal Shoes</div>     
+                                                <div>Sneakers</div>
+                                                <div>Sandals & Floaters</div>
+                                                <div>Flip Flops</div>
+                                                <div>Socks</div>
+                                                <div><b>Personal Care & Grooming</b></div>
+                                                <div><b>Sunglasses & Frames</b></div>
+                                                <div><b>Watches</b></div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Sports & Active Wear</b></div>
+                                                <div>Sports Shoes</div>
+                                                <div>Sports Sandals</div>
+                                                <div>Active T-Shirts</div>     
+                                                <div>Track Pants & Shorts</div>
+                                                <div>Tracksuits</div>
+                                                <div>Jackets & Sweatshirts</div>
+                                                <div>Sports Accessories</div>
+                                                <div>Swimwear</div>
+                                                <div><b>Gadgets</b></div>
+                                                <div>Fitness Gadgets</div>
+                                                <div>Headphones</div>
+                                                <div>Speakers</div>
+                                            </div>
+                                            <div class="col">
+                                                <div><b>Fashion Accessories</b></div>
+                                                <div>Wallets</div>
+                                                <div>Belts</div>
+                                                <div>Perfumes & Body Mists</div>     
+                                                <div>Trimmers</div>
+                                                <div>Deodorants</div>
+                                                <div>Ties, Cufflinks & Pocket Squares</div>
+                                                <div>Accessory Gift Sets</div>
+                                                <div>Caps & Hats</div>
+                                                <div>Mufflers, Scarves & Gloves</div>
+                                                <div>Phone Cases</div>
+                                                <div>Rings & Wristwear</div>
+                                                <div>Helmets</div>
+                                                <div><b>Bags & Backpacks</b></div>
+                                                <div><b>Luggages & Trolleys</b></div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </a>
+                            </li>
+                            <li class="nav-item studio pointer">
+                                <a class="nav-link active" href="#">
+                                    <strong>STUDIO<sup class="new">NEW</sup></strong>
+                                </a>
+                                <div class="container studio-details">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img src="assets/images/studio-nav-banner.png" class="img-fluid" alt="studio_Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-5" id="form">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input id="search" type="text" placeholder="Search for products, brands and more">
+                        </form>
+                        <ul class="navbar-nav" id="nav2">
+                            <li class="nav-item men pointer ms-5  me-4">
+                                <i class="fa-solid fs-24 fa-circle-user"></i>
+                                <a class="nav-link active " href="#">
+                                    Profile
+                                </a>
+                            </li>
+                            <li class="nav-item  pointer me-4">
+                                <i class="fa-regular  fs-24 fa-heart "></i>
+                                <a class="nav-link active " href="#">
+                                    Wishlist
+                                </a>
+                            </li>
+                            <li class="nav-item  pointer ">
+                                <i class="fa-solid  fs-24 fa-1x fa-bag-shopping"></i>
+                                <a class="nav-link active " href="#">
+                                    Bag
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <button  class="navbar-toggler float-start" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
             </div>
-        </nav>
+        </div>
+        <script src="js/bootstrap_js.js"></script>
     </body>
 </html>
