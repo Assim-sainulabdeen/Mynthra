@@ -407,3 +407,51 @@ div .card:hover {
 .hrWidth {
   width: 100%;
 }
+.fontSize{
+  font-size: 15px;
+}
+
+.anchorColor{
+  color: #696b79;
+}
+
+footer a:hover{
+  color: #696b79
+}
+.footerButton{
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding:0 4px;
+}
+.playstore-image{
+  height: 42px;
+  width: 100%;
+}
+
+.footerIconColor{
+  color: #66686e;
+}
+.search{
+  width: 12%;
+}
+.hrSearch{
+  width: 80%;
+  left: 12%;
+  top: -5px;
+}
+.footer-links a{
+  padding-right: 4px;
+  line-height: 20px;
+}
+.desktopContact{
+  color:#526cd0;
+}
+.desktopContact:hover{
+  color:#526cd0;
+}
+.desktopLink{
+  color: #94969f;
+}
