@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="js/font.js"></script>
+        <link href="styles/nav.css" rel="stylesheet">
+        <link href="styles/bootstrap_css.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigation">
+            <div class="container-fluid justify-content-lg-between justify-content-start">
+                <a class="navbar-brand px-3 " href="#" id="logo">
+                    <img src="assets/images/logo.png"  alt="logo-image">
+                </a>
+                <div class="offcanvas d-lg-none d-block offcanvas-start offcanvasMenu" id="demo">
+                    <div class="offcanvas-header">
+                      <div class="offcanvas-title">
+                        <img src="assets/images/logo.png" class="ps-4" alt="logo-image">
+                      </div>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                       <div class="container">
+                        <a class="nav-link color-black active" aria-current="page" href="#"><b>MEN</b></a>
+                        <a class="nav-link color-black  active" aria-current="page" href="#"><b>WOMEN</b></a>
+                        <a class="nav-link color-black active" aria-current="page" href="#"><b>KIDS</b></a>
+                        <a class="nav-link color-black active" aria-current="page" href="#"><b>HOME&LIVING</b></a>
+                        <a class="nav-link color-black active" aria-current="page" href="#"><b>BEAUTY</b></a>
+                        <a class="nav-link color-black active" aria-current="page" href="#"><b>STUDIO</b></a>
+                       </div>
+                    </div>
+                </div>
+                <button  class="navbar-toggler float-start" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </body>
+</html>
