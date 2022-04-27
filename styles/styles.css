@@ -6,6 +6,171 @@ body {
   font-family: sans-serif;
 }
 
+#header {
+  padding: 0;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+}
+#logo {
+  padding-bottom: 20px;
+  margin-top: 18px;
+}
+#image {
+  width: 53px;
+}
+.nav-bar {
+  z-index: 1;
+}
+
+.nav-item {
+  font-size: 14px;
+  padding-bottom: 16px;
+  margin: 20px 10px 0 3px;
+  border-bottom: 4px solid transparent;
+}
+
+nav.navbar-light .navbar-nav .nav-link.active {
+  color: #282c3f;
+  letter-spacing: 0.3px;
+}
+.offcanvas-body .canvas-color{
+  color:#282c3f;
+  font-weight: 600;
+  font-size: 14px;
+}
+.offcanvas-body .canvas-color:hover{
+  color:#282c3f;
+}
+.new {
+  color: #ff69b4;
+  font-size: 10px;
+}
+
+#form {
+  border-radius: 5px;
+  border: none;
+  width: 25%;
+  height: 50%;
+  background-color: #f5f5f6;
+  padding: 5px;
+}
+.fa-magnifying-glass {
+  padding: 6px 12px;
+  color: #ced4da;
+}
+.fs-24 {
+  font-size: 24px;
+}
+
+.men:hover {
+  border-bottom: 4px solid #ee5f73;
+}
+
+.women:hover {
+  border-bottom: 4px solid #fb56c1;
+}
+
+.kids:hover {
+  border-bottom: 4px solid #f26a10;
+}
+
+.home:hover {
+  border-bottom: 4px solid #f2c210;
+}
+
+.beauty:hover {
+  border-bottom: 4px solid #0db7af;
+}
+.studio:hover {
+  border-bottom: 4px solid #ff3f6c;
+}
+.pointer {
+  cursor: pointer;
+}
+hr {
+  width: 90%;
+}
+.header {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.headerColor{
+  color: #ee5f73;
+}
+.headerRule{
+  width: 90%;
+  color: #eaeaec;
+  opacity: 0.8;
+}
+.desktopHoverLink:hover{
+  font-weight: 600;
+  color: #282c3f;
+}
+
+.container-m {
+  margin-top: 15px;
+  box-shadow: 0 4px 4px #9b9ea1;
+  transition: all 0.2s ease-out;
+  display: none;
+}
+.bg-color {
+  background-color: #fbfbfb;
+}
+.men:hover .container-m {
+  display: block;
+}
+.men-dress-details {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  background-color: white;
+  box-shadow: 0 0 8px #a6a0a0;
+  display: none;
+}
+#mynavbar .container {
+  width: 90%;
+}
+
+#mynavbar .studio-details {
+  width: 50%;
+}
+.studio-details {
+  position: absolute;
+  top: 100%;
+  left: 30%;
+  background-color: white;
+  box-shadow: 0 0 8px #a6a0a0;
+  display: none;
+}
+.studio:hover .studio-details {
+  display: block;
+}
+.nav-item:hover .men-dress-details {
+  display: block;
+}
+.search-box{
+  border:1px solid rgb(214, 209, 209);
+  width:300px;
+  background-color: white;
+  border-radius:5px;   
+}
+.content{
+  width:250px;
+  padding:2px;
+  border:none;
+}
+.content:focus{
+  outline:none;
+}
+.fa-heart,.fa-bag-shopping,.fa-circle-user{
+    margin-top:8px;
+    font-size:18px;
+}
+.sub-title{
+    font-size:12px;
+}
+#crumb {
+  margin-top: 100px;
+}
 .text-size {
   font-weight: 600;
 }
@@ -316,10 +481,10 @@ hr {
   width: 90%;
 }
 
-#customerReview {
+#customerReview, #customerReview3 {
   padding-right: 0;
 }
-#customerReview2 {
+#customerReview2, #customerReview4 {
   padding-left: 0;
   margin-top: 11px;
 }
@@ -451,6 +616,4 @@ footer a:hover{
 }
 .desktopContact:hover{
   color:#526cd0;
-}
-.desktopLink{
 }

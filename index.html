@@ -10,6 +10,502 @@
         <script src="js/font.js"></script>
     </head>
     <body>
+        <div class="container-fluid">
+            <div class="row"></div>
+            <div class="navbar navbar-expand-lg fixed-top navbar-light bg-white" id="header">
+                <div class="container-fluid justify-content-start">
+                    <button  class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="pointer me-sm-5 ms-sm-1 ms-sm-1 me-0" id="logo">
+                        <img src="assets/images/logo.png" alt="Mynthra_logo" id="image">
+                    </div>
+                    <div class="offcanvas d-lg-none d-block offcanvas-start offcanvasMenu" id="demo">
+                        <div class="offcanvas-header">
+                          <div class="offcanvas-title">
+                            <img src="assets/images/logo.png" class="ps-4" alt="logo-image">
+                          </div>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                           <div class="container">
+                            <a class="nav-link canvas-color" aria-current="page" href="#">MEN</a>
+                            <a class="nav-link canvas-color" aria-current="page" href="#">WOMEN</a>
+                            <a class="nav-link canvas-color" aria-current="page" href="#">KIDS</a>
+                            <a class="nav-link canvas-color" aria-current="page" href="#">HOME&LIVING</a>
+                            <a class="nav-link canvas-color" aria-current="page" href="#">BEAUTY</a>
+                            <a class="nav-link canvas-color" aria-current="page" href="#">STUDIO</a>
+                           </div>
+                        </div>
+                    </div>
+                    <div id="mynavbar">
+                        <div class="navbar-nav d-lg-flex d-none me-0 justify-content-around  gap-2">
+                            <span class="nav-item men pointer">
+                                <a class="nav-link active " href="#">
+                                    <strong>MEN</strong>
+                                    <div class="container men-dress-details">
+                                        <div class="row">
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>TopWear</b></div>
+                                                <div class="desktopHoverLink">T-Shirts</div>
+                                                <div class="desktopHoverLink">Casual Shirts</div>
+                                                <div class="desktopHoverLink"> Formal Shirts</div>
+                                                <div class="desktopHoverLink"> Sweatshirts</div>
+                                                <div class="desktopHoverLink"> Sweaters</div>
+                                                <div class="desktopHoverLink">Jackets</div>
+                                                <div class="desktopHoverLink">Blazers & Coats</div>
+                                                <div class="desktopHoverLink"> Suits</div>
+                                                <div class="desktopHoverLink">Rain Jackets</div><hr class="headerRule">
+                                                <div class="headerColor headerSpecs"><b>Indian Festive Wear</b></div>
+                                                <div class="desktopHoverLink">Kurtas & Kurta Sets</div>
+                                                <div class="desktopHoverLink">Sherwanis</div>
+                                                <div class="desktopHoverLink">Nehru Jackets</div>
+                                                <div class="desktopHoverLink">Dhotis</div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Bottom Wear</b></div>
+                                                <div class="desktopHoverLink">Jeans</div>
+                                                <div class="desktopHoverLink">Casual Trousers</div>
+                                                <div class="desktopHoverLink">Formal Trousers</div>     
+                                                <div class="desktopHoverLink">Shorts</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Innerwear & SleepWears</b></div>
+                                                <div class="desktopHoverLink">Briefs & Trunks</div>
+                                                <div class="desktopHoverLink">Boxers</div>
+                                                <div class="desktopHoverLink">Vests</div>
+                                                <div class="desktopHoverLink">Sleepwear & Loungewear</div>
+                                                <div class="desktopHoverLink">Thermals</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Plus Size</b></div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Foot Wear</b></div>
+                                                <div class="desktopHoverLink">Casual Shoes</div>
+                                                <div class="desktopHoverLink">Sports Shoes</div>
+                                                <div class="desktopHoverLink">Formal Shoes</div>     
+                                                <div class="desktopHoverLink">Sneakers</div>
+                                                <div class="desktopHoverLink">Sandals & Floaters</div>
+                                                <div class="desktopHoverLink">Flip Flops</div> class="desktopHoverLink"
+                                                <div class="desktopHoverLink">Socks</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Personal Care & Grooming</b></div>
+                                                <div class="headerSpecs headerColor"><b>Sunglasses & Frames</b></div>
+                                                <div class="headerSpecs headerColor"><b>Watches</b></div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Sports & Active Wear</b></div>
+                                                <div class="desktopHoverLink">Sports Shoes</div>
+                                                <div class="desktopHoverLink">Sports Sandals</div>
+                                                <div class="desktopHoverLink">Active T-Shirts</div>     
+                                                <div class="desktopHoverLink">Track Pants & Shorts</div>
+                                                <div class="desktopHoverLink">Tracksuits</div>
+                                                <div class="desktopHoverLink">Jackets & Sweatshirts</div>
+                                                <div class="desktopHoverLink">Sports Accessories</div>
+                                                <div class="desktopHoverLink">Swimwear</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Gadgets</b></div>
+                                                <div class="desktopHoverLink">Fitness Gadgets</div>
+                                                <div class="desktopHoverLink">Headphones</div>
+                                                <div class="desktopHoverLink">Speakers</div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Fashion Accessories</b></div>
+                                                <div class="desktopHoverLink">Wallets</div>
+                                                <div class="desktopHoverLink">Belts</div>
+                                                <div class="desktopHoverLink">Perfumes & Body Mists</div>     
+                                                <div class="desktopHoverLink">Trimmers</div>
+                                                <div class="desktopHoverLink">Deodorants</div>
+                                                <div class="desktopHoverLink">Ties, Cufflinks & Pocket Squares</div>
+                                                <div class="desktopHoverLink">Accessory Gift Sets</div>
+                                                <div class="desktopHoverLink">Caps & Hats</div>
+                                                <div class="desktopHoverLink">Mufflers, Scarves & Gloves</div>
+                                                <div class="desktopHoverLink">Phone Cases</div>
+                                                <div class="desktopHoverLink">Rings & Wristwear</div>
+                                                <div class="desktopHoverLink">Helmets</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Bags & Backpacks</b></div>
+                                                <div class="headerSpecs headerColor"><b>Luggages & Trolleys</b></div>
+                                            </div>
+                                        </div>
+                                    </div>                 
+                                </a>
+                            </span>
+                            <span class="nav-item women pointer">
+                                <a class="nav-link active" href="#">
+                                    <strong>WOMEN</strong>
+                                    <div class="container men-dress-details">
+                                        <div class="row">
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>TopWear</b></div>
+                                                <div class="desktopHoverLink">T-Shirts</div>
+                                                <div class="desktopHoverLink">Casual Shirts</div>
+                                                <div class="desktopHoverLink"> Formal Shirts</div>
+                                                <div class="desktopHoverLink"> Sweatshirts</div>
+                                                <div class="desktopHoverLink"> Sweaters</div>
+                                                <div class="desktopHoverLink">Jackets</div>
+                                                <div class="desktopHoverLink">Blazers & Coats</div>
+                                                <div class="desktopHoverLink"> Suits</div>
+                                                <div class="desktopHoverLink">Rain Jackets</div><hr class="headerRule">
+                                                <div class="headerColor headerSpecs"><b>Indian Festive Wear</b></div>
+                                                <div class="desktopHoverLink">Kurtas & Kurta Sets</div>
+                                                <div class="desktopHoverLink">Sherwanis</div>
+                                                <div class="desktopHoverLink">Nehru Jackets</div>
+                                                <div class="desktopHoverLink">Dhotis</div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Bottom Wear</b></div>
+                                                <div class="desktopHoverLink">Jeans</div>
+                                                <div class="desktopHoverLink">Casual Trousers</div>
+                                                <div class="desktopHoverLink">Formal Trousers</div>     
+                                                <div class="desktopHoverLink">Shorts</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Innerwear & SleepWears</b></div>
+                                                <div class="desktopHoverLink">Briefs & Trunks</div>
+                                                <div class="desktopHoverLink">Boxers</div>
+                                                <div class="desktopHoverLink">Vests</div>
+                                                <div class="desktopHoverLink">Sleepwear & Loungewear</div>
+                                                <div class="desktopHoverLink">Thermals</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Plus Size</b></div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Foot Wear</b></div>
+                                                <div class="desktopHoverLink">Casual Shoes</div>
+                                                <div class="desktopHoverLink">Sports Shoes</div>
+                                                <div class="desktopHoverLink">Formal Shoes</div>     
+                                                <div class="desktopHoverLink">Sneakers</div>
+                                                <div class="desktopHoverLink">Sandals & Floaters</div>
+                                                <div class="desktopHoverLink">Flip Flops</div> class="desktopHoverLink"
+                                                <div class="desktopHoverLink">Socks</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Personal Care & Grooming</b></div>
+                                                <div class="headerSpecs headerColor"><b>Sunglasses & Frames</b></div>
+                                                <div class="headerSpecs headerColor"><b>Watches</b></div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Sports & Active Wear</b></div>
+                                                <div class="desktopHoverLink">Sports Shoes</div>
+                                                <div class="desktopHoverLink">Sports Sandals</div>
+                                                <div class="desktopHoverLink">Active T-Shirts</div>     
+                                                <div class="desktopHoverLink">Track Pants & Shorts</div>
+                                                <div class="desktopHoverLink">Tracksuits</div>
+                                                <div class="desktopHoverLink">Jackets & Sweatshirts</div>
+                                                <div class="desktopHoverLink">Sports Accessories</div>
+                                                <div class="desktopHoverLink">Swimwear</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Gadgets</b></div>
+                                                <div class="desktopHoverLink">Fitness Gadgets</div>
+                                                <div class="desktopHoverLink">Headphones</div>
+                                                <div class="desktopHoverLink">Speakers</div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Fashion Accessories</b></div>
+                                                <div class="desktopHoverLink">Wallets</div>
+                                                <div class="desktopHoverLink">Belts</div>
+                                                <div class="desktopHoverLink">Perfumes & Body Mists</div>     
+                                                <div class="desktopHoverLink">Trimmers</div>
+                                                <div class="desktopHoverLink">Deodorants</div>
+                                                <div class="desktopHoverLink">Ties, Cufflinks & Pocket Squares</div>
+                                                <div class="desktopHoverLink">Accessory Gift Sets</div>
+                                                <div class="desktopHoverLink">Caps & Hats</div>
+                                                <div class="desktopHoverLink">Mufflers, Scarves & Gloves</div>
+                                                <div class="desktopHoverLink">Phone Cases</div>
+                                                <div class="desktopHoverLink">Rings & Wristwear</div>
+                                                <div class="desktopHoverLink">Helmets</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Bags & Backpacks</b></div>
+                                                <div class="headerSpecs headerColor"><b>Luggages & Trolleys</b></div>
+                                            </div>
+                                        </div>
+                                    </div>     
+                                </a>
+                            </span>
+                            <span class="nav-item kids pointer">
+                                <a class="nav-link active" href="#">
+                                    <strong>KIDS</strong>
+                                    <div class="container men-dress-details">
+                                        <div class="row">
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>TopWear</b></div>
+                                                <div class="desktopHoverLink">T-Shirts</div>
+                                                <div class="desktopHoverLink">Casual Shirts</div>
+                                                <div class="desktopHoverLink"> Formal Shirts</div>
+                                                <div class="desktopHoverLink"> Sweatshirts</div>
+                                                <div class="desktopHoverLink"> Sweaters</div>
+                                                <div class="desktopHoverLink">Jackets</div>
+                                                <div class="desktopHoverLink">Blazers & Coats</div>
+                                                <div class="desktopHoverLink"> Suits</div>
+                                                <div class="desktopHoverLink">Rain Jackets</div><hr class="headerRule">
+                                                <div class="headerColor headerSpecs"><b>Indian Festive Wear</b></div>
+                                                <div class="desktopHoverLink">Kurtas & Kurta Sets</div>
+                                                <div class="desktopHoverLink">Sherwanis</div>
+                                                <div class="desktopHoverLink">Nehru Jackets</div>
+                                                <div class="desktopHoverLink">Dhotis</div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Bottom Wear</b></div>
+                                                <div class="desktopHoverLink">Jeans</div>
+                                                <div class="desktopHoverLink">Casual Trousers</div>
+                                                <div class="desktopHoverLink">Formal Trousers</div>     
+                                                <div class="desktopHoverLink">Shorts</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Innerwear & SleepWears</b></div>
+                                                <div class="desktopHoverLink">Briefs & Trunks</div>
+                                                <div class="desktopHoverLink">Boxers</div>
+                                                <div class="desktopHoverLink">Vests</div>
+                                                <div class="desktopHoverLink">Sleepwear & Loungewear</div>
+                                                <div class="desktopHoverLink">Thermals</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Plus Size</b></div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Foot Wear</b></div>
+                                                <div class="desktopHoverLink">Casual Shoes</div>
+                                                <div class="desktopHoverLink">Sports Shoes</div>
+                                                <div class="desktopHoverLink">Formal Shoes</div>     
+                                                <div class="desktopHoverLink">Sneakers</div>
+                                                <div class="desktopHoverLink">Sandals & Floaters</div>
+                                                <div class="desktopHoverLink">Flip Flops</div> class="desktopHoverLink"
+                                                <div class="desktopHoverLink">Socks</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Personal Care & Grooming</b></div>
+                                                <div class="headerSpecs headerColor"><b>Sunglasses & Frames</b></div>
+                                                <div class="headerSpecs headerColor"><b>Watches</b></div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Sports & Active Wear</b></div>
+                                                <div class="desktopHoverLink">Sports Shoes</div>
+                                                <div class="desktopHoverLink">Sports Sandals</div>
+                                                <div class="desktopHoverLink">Active T-Shirts</div>     
+                                                <div class="desktopHoverLink">Track Pants & Shorts</div>
+                                                <div class="desktopHoverLink">Tracksuits</div>
+                                                <div class="desktopHoverLink">Jackets & Sweatshirts</div>
+                                                <div class="desktopHoverLink">Sports Accessories</div>
+                                                <div class="desktopHoverLink">Swimwear</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Gadgets</b></div>
+                                                <div class="desktopHoverLink">Fitness Gadgets</div>
+                                                <div class="desktopHoverLink">Headphones</div>
+                                                <div class="desktopHoverLink">Speakers</div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Fashion Accessories</b></div>
+                                                <div class="desktopHoverLink">Wallets</div>
+                                                <div class="desktopHoverLink">Belts</div>
+                                                <div class="desktopHoverLink">Perfumes & Body Mists</div>     
+                                                <div class="desktopHoverLink">Trimmers</div>
+                                                <div class="desktopHoverLink">Deodorants</div>
+                                                <div class="desktopHoverLink">Ties, Cufflinks & Pocket Squares</div>
+                                                <div class="desktopHoverLink">Accessory Gift Sets</div>
+                                                <div class="desktopHoverLink">Caps & Hats</div>
+                                                <div class="desktopHoverLink">Mufflers, Scarves & Gloves</div>
+                                                <div class="desktopHoverLink">Phone Cases</div>
+                                                <div class="desktopHoverLink">Rings & Wristwear</div>
+                                                <div class="desktopHoverLink">Helmets</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Bags & Backpacks</b></div>
+                                                <div class="headerSpecs headerColor"><b>Luggages & Trolleys</b></div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </a>
+                            </span>
+
+                            <span class="nav-item home pointer">
+                                <a class="nav-link active" href="#">
+                                    <strong>HOME & LIVING</strong>
+                                    <div class="container men-dress-details">
+                                        <div class="row">
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>TopWear</b></div>
+                                                <div class="desktopHoverLink">T-Shirts</div>
+                                                <div class="desktopHoverLink">Casual Shirts</div>
+                                                <div class="desktopHoverLink"> Formal Shirts</div>
+                                                <div class="desktopHoverLink"> Sweatshirts</div>
+                                                <div class="desktopHoverLink"> Sweaters</div>
+                                                <div class="desktopHoverLink">Jackets</div>
+                                                <div class="desktopHoverLink">Blazers & Coats</div>
+                                                <div class="desktopHoverLink"> Suits</div>
+                                                <div class="desktopHoverLink">Rain Jackets</div><hr class="headerRule">
+                                                <div class="headerColor headerSpecs"><b>Indian Festive Wear</b></div>
+                                                <div class="desktopHoverLink">Kurtas & Kurta Sets</div>
+                                                <div class="desktopHoverLink">Sherwanis</div>
+                                                <div class="desktopHoverLink">Nehru Jackets</div>
+                                                <div class="desktopHoverLink">Dhotis</div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Bottom Wear</b></div>
+                                                <div class="desktopHoverLink">Jeans</div>
+                                                <div class="desktopHoverLink">Casual Trousers</div>
+                                                <div class="desktopHoverLink">Formal Trousers</div>     
+                                                <div class="desktopHoverLink">Shorts</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Innerwear & SleepWears</b></div>
+                                                <div class="desktopHoverLink">Briefs & Trunks</div>
+                                                <div class="desktopHoverLink">Boxers</div>
+                                                <div class="desktopHoverLink">Vests</div>
+                                                <div class="desktopHoverLink">Sleepwear & Loungewear</div>
+                                                <div class="desktopHoverLink">Thermals</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Plus Size</b></div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Foot Wear</b></div>
+                                                <div class="desktopHoverLink">Casual Shoes</div>
+                                                <div class="desktopHoverLink">Sports Shoes</div>
+                                                <div class="desktopHoverLink">Formal Shoes</div>     
+                                                <div class="desktopHoverLink">Sneakers</div>
+                                                <div class="desktopHoverLink">Sandals & Floaters</div>
+                                                <div class="desktopHoverLink">Flip Flops</div> class="desktopHoverLink"
+                                                <div class="desktopHoverLink">Socks</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Personal Care & Grooming</b></div>
+                                                <div class="headerSpecs headerColor"><b>Sunglasses & Frames</b></div>
+                                                <div class="headerSpecs headerColor"><b>Watches</b></div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Sports & Active Wear</b></div>
+                                                <div class="desktopHoverLink">Sports Shoes</div>
+                                                <div class="desktopHoverLink">Sports Sandals</div>
+                                                <div class="desktopHoverLink">Active T-Shirts</div>     
+                                                <div class="desktopHoverLink">Track Pants & Shorts</div>
+                                                <div class="desktopHoverLink">Tracksuits</div>
+                                                <div class="desktopHoverLink">Jackets & Sweatshirts</div>
+                                                <div class="desktopHoverLink">Sports Accessories</div>
+                                                <div class="desktopHoverLink">Swimwear</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Gadgets</b></div>
+                                                <div class="desktopHoverLink">Fitness Gadgets</div>
+                                                <div class="desktopHoverLink">Headphones</div>
+                                                <div class="desktopHoverLink">Speakers</div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Fashion Accessories</b></div>
+                                                <div class="desktopHoverLink">Wallets</div>
+                                                <div class="desktopHoverLink">Belts</div>
+                                                <div class="desktopHoverLink">Perfumes & Body Mists</div>     
+                                                <div class="desktopHoverLink">Trimmers</div>
+                                                <div class="desktopHoverLink">Deodorants</div>
+                                                <div class="desktopHoverLink">Ties, Cufflinks & Pocket Squares</div>
+                                                <div class="desktopHoverLink">Accessory Gift Sets</div>
+                                                <div class="desktopHoverLink">Caps & Hats</div>
+                                                <div class="desktopHoverLink">Mufflers, Scarves & Gloves</div>
+                                                <div class="desktopHoverLink">Phone Cases</div>
+                                                <div class="desktopHoverLink">Rings & Wristwear</div>
+                                                <div class="desktopHoverLink">Helmets</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Bags & Backpacks</b></div>
+                                                <div class="headerSpecs headerColor"><b>Luggages & Trolleys</b></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </span>
+    
+                            <span class="nav-item beauty pointer">
+                                <a class="nav-link active" href="#">
+                                    <strong>BEAUTY</strong>
+                                    <div class="container men-dress-details">
+                                        <div class="row">
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>TopWear</b></div>
+                                                <div class="desktopHoverLink">T-Shirts</div>
+                                                <div class="desktopHoverLink">Casual Shirts</div>
+                                                <div class="desktopHoverLink"> Formal Shirts</div>
+                                                <div class="desktopHoverLink"> Sweatshirts</div>
+                                                <div class="desktopHoverLink"> Sweaters</div>
+                                                <div class="desktopHoverLink">Jackets</div>
+                                                <div class="desktopHoverLink">Blazers & Coats</div>
+                                                <div class="desktopHoverLink"> Suits</div>
+                                                <div class="desktopHoverLink">Rain Jackets</div><hr class="headerRule">
+                                                <div class="headerColor headerSpecs"><b>Indian Festive Wear</b></div>
+                                                <div class="desktopHoverLink">Kurtas & Kurta Sets</div>
+                                                <div class="desktopHoverLink">Sherwanis</div>
+                                                <div class="desktopHoverLink">Nehru Jackets</div>
+                                                <div class="desktopHoverLink">Dhotis</div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Bottom Wear</b></div>
+                                                <div class="desktopHoverLink">Jeans</div>
+                                                <div class="desktopHoverLink">Casual Trousers</div>
+                                                <div class="desktopHoverLink">Formal Trousers</div>     
+                                                <div class="desktopHoverLink">Shorts</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Innerwear & SleepWears</b></div>
+                                                <div class="desktopHoverLink">Briefs & Trunks</div>
+                                                <div class="desktopHoverLink">Boxers</div>
+                                                <div class="desktopHoverLink">Vests</div>
+                                                <div class="desktopHoverLink">Sleepwear & Loungewear</div>
+                                                <div class="desktopHoverLink">Thermals</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Plus Size</b></div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Foot Wear</b></div>
+                                                <div class="desktopHoverLink">Casual Shoes</div>
+                                                <div class="desktopHoverLink">Sports Shoes</div>
+                                                <div class="desktopHoverLink">Formal Shoes</div>     
+                                                <div class="desktopHoverLink">Sneakers</div>
+                                                <div class="desktopHoverLink">Sandals & Floaters</div>
+                                                <div class="desktopHoverLink">Flip Flops</div> class="desktopHoverLink"
+                                                <div class="desktopHoverLink">Socks</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Personal Care & Grooming</b></div>
+                                                <div class="headerSpecs headerColor"><b>Sunglasses & Frames</b></div>
+                                                <div class="headerSpecs headerColor"><b>Watches</b></div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Sports & Active Wear</b></div>
+                                                <div class="desktopHoverLink">Sports Shoes</div>
+                                                <div class="desktopHoverLink">Sports Sandals</div>
+                                                <div class="desktopHoverLink">Active T-Shirts</div>     
+                                                <div class="desktopHoverLink">Track Pants & Shorts</div>
+                                                <div class="desktopHoverLink">Tracksuits</div>
+                                                <div class="desktopHoverLink">Jackets & Sweatshirts</div>
+                                                <div class="desktopHoverLink">Sports Accessories</div>
+                                                <div class="desktopHoverLink">Swimwear</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Gadgets</b></div>
+                                                <div class="desktopHoverLink">Fitness Gadgets</div>
+                                                <div class="desktopHoverLink">Headphones</div>
+                                                <div class="desktopHoverLink">Speakers</div>
+                                            </div>
+                                            <div class="col pb-3">
+                                                <div class="header headerColor"><b>Fashion Accessories</b></div>
+                                                <div class="desktopHoverLink">Wallets</div>
+                                                <div class="desktopHoverLink">Belts</div>
+                                                <div class="desktopHoverLink">Perfumes & Body Mists</div>     
+                                                <div class="desktopHoverLink">Trimmers</div>
+                                                <div class="desktopHoverLink">Deodorants</div>
+                                                <div class="desktopHoverLink">Ties, Cufflinks & Pocket Squares</div>
+                                                <div class="desktopHoverLink">Accessory Gift Sets</div>
+                                                <div class="desktopHoverLink">Caps & Hats</div>
+                                                <div class="desktopHoverLink">Mufflers, Scarves & Gloves</div>
+                                                <div class="desktopHoverLink">Phone Cases</div>
+                                                <div class="desktopHoverLink">Rings & Wristwear</div>
+                                                <div class="desktopHoverLink">Helmets</div><hr class="headerRule">
+                                                <div class="headerSpecs headerColor"><b>Bags & Backpacks</b></div>
+                                                <div class="headerSpecs headerColor"><b>Luggages & Trolleys</b></div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </a>
+                            </span>
+                            <div class="nav-item studio pointer">
+                                <a class="nav-link active" href="#">
+                                    <strong>STUDIO<sup class="new">NEW</sup></strong>
+                                </a>
+                                <div class="container studio-details">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img src="assets/images/studio-nav-banner.png" class="img-fluid" alt="studio_Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-box ms-md-5 ms-0">
+                        <form class=" d-flex ms-0 ps-1 d-flex" > 
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input class="content" type="search" placeholder="Search for Products, Brands and More" aria-label="Search">
+                        </form>
+                    </div>
+                    <div class="ms-3">
+                        <ul  class="navbar-nav ps-4 col-md-auto  d-xl-flex  d-sm-none d-none mb-lg-0 gap-3">
+                            <li  class="nav-item">
+                                <i class="fa-solid fa-circle-user"></i><br>
+                                <span class="sub-title">profile</span>
+                            </li>
+                            <li  class="nav-item">
+                                <i class="fa-solid fa-bag-shopping"></i><br>
+                                <span class="sub-title">Bag</span>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-regular fa-heart"></i><br>
+                                <span class="sub-title">Wishlist</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container-fluid ps-4" id="crumb">
             <div class="row">
                 <div class="col">
@@ -127,35 +623,35 @@
                                 <div class="buttons d-inline-block">
                                     <div class="btn1">
                                         <button type="button" class="button hover2">
-                                            <p>S</p>
+                                            <span>S</span>
                                         </button>
                                     </div>                                    
                                 </div>
                                 <div class="buttons d-inline-block">
                                     <div class="btn1">
                                         <button type="button" class="button hover2">
-                                            <p>M</p>
+                                            <span>M</span>
                                         </button>
                                     </div>                                    
                                 </div>
                                 <div class="buttons d-inline-block">
                                     <div class="btn1">
                                         <button type="button" class="button hover2">
-                                            <p>L</p>
+                                            <span>L</span>
                                         </button>
                                     </div>                                    
                                 </div>
                                 <div class="buttons d-inline-block">
                                     <div class="btn1">
                                         <button type="button" class="button hover2">
-                                            <p>XL</p>
+                                            <span>XL</span>
                                         </button>
                                     </div>                                    
                                 </div>
                                 <div class="buttons d-inline-block">
                                     <div class="btn1">
                                         <button type="button" class="button hover2">
-                                            <p>XXL</p>
+                                            <span>XXL</span>
                                         </button>
                                     </div>                                    
                                 </div>
@@ -195,7 +691,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div clas="col">
+                            <div class="col">
                                 <div class="productInfo productDeliveryDetails color">
                                     100% Original Products
                                 </div>
@@ -203,14 +699,14 @@
                         </div>
 
                         <div class="row">
-                            <div clas="col">
+                            <div class="col">
                                 <div class="productInfo  color">
                                     Pay on delivery might be available
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div clas="col">
+                            <div class="col">
                                 <div class="productInfo color">
                                     Easy 30 days returns and exchanges
                                 </div>
@@ -218,7 +714,7 @@
                         </div>
 
                         <div class="row">
-                            <div clas="col">
+                            <div class="col">
                                 <div class="productInfo color">
                                     Try & Buy might be available
                                 </div>
@@ -226,7 +722,7 @@
                         </div>
 
                         <div class="row">
-                            <div  clas="col">
+                            <div  class="col">
                                 <h4 class="color deliveryOptions d-inline-block me-2 emi">BEST OFFERS</h4>
                                 <span><i class="fa-solid fa-tag"></i></span>
                             </div>
@@ -252,7 +748,10 @@
                         <div class="row">
                             <div class="col emi">
                                 <strong>EMI option available</strong>
-                                <li class="emiRate color">EMI starting from Rs.20/month</li>
+                                <ul>
+                                    <li class="emiRate color">EMI starting from Rs.20/month</li>
+                                </ul>
+                               
                                 <div>
                                     <span  class="emiRate pointer emiPlan">View Plan</span>
                                 </div>
@@ -261,7 +760,9 @@
                         <div class="row">
                             <div class="col emi">
                                 <strong>Combo Offer: Get 2 items for Rs. 743</strong>
-                                <li class="emiRate color">Buy 1 item for Rs. 699, buy 2 items for Rs. 743</li>
+                                <ul>
+                                    <li class="emiRate color">Buy 1 item for Rs. 699, buy 2 items for Rs. 743</li>
+                                </ul>
                                 <div>
                                     <span  class="emiRate pointer emiPlan">View Eligible Product</span>
                                 </div>
@@ -272,7 +773,7 @@
                             <div class="col">
                                 <h4 class="color deliveryOptions d-inline-block me-2 imagePadding ">PRODUCT DETAILS</h4>
                                 <span><i class="fa-solid fa-tag"></i></span>
-                                <P class="paraDetails">
+                                <div class="paraDetails">
                                     This season set a sporty fashion trend with the HRX Men's <br>
                                     Athleisure T-shirt. This striped casual T-shirt can be worn on its <br>
                                     own or layered under a jacket or a hoodie.
@@ -286,7 +787,7 @@
                                         <li>Print: Geometric</li>
                                         <li>Fit: Regular</li>
                                     </ul>
-                                </P>
+                                </div>
                             </div>
                         </div>
 
@@ -455,7 +956,7 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-4" id="customerReview">
+                            <div class="col-4" id="customerReview3">
                                 <div class="color specsDetail reviewCount">Length</div>
                                 <div class="progressBar progressBar2 progressBar3">
                                     <div class="progress ">
@@ -463,7 +964,7 @@
                                     </div>
                                 </div> 
                             </div>
-                            <div class="col-6" id="customerReview2">
+                            <div class="col-6" id="customerReview4">
                                 <span class="color reviewCount customerPercentage"><b>As Expected (86%)</b></span>
                             </div>
                         </div>
@@ -516,10 +1017,10 @@
                                         </p>
                                         <div class="row">
                                             <div class=" col-lg-3 col-sm-3 col-4">
-                                                <img src="assets/images/review1.jpg" class="img-fluid">
+                                                <img src="assets/images/review1.jpg"  alt="Customer_Image"  class="img-fluid">
                                             </div>
                                             <div class="col-lg-3 col-sm-3 col-4">
-                                                <img src="assets/images/review2.jpg" class="img-fluid">
+                                                <img src="assets/images/review2.jpg"  alt="Customer_Image"  class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="row">
@@ -555,10 +1056,10 @@
                                         </p>
                                         <div class="row">
                                             <div class="col-lg-3 col-sm-3 col-4">
-                                                <img src="assets/images/Kaustav-Lodh-image1.jpg" class="img-fluid">
+                                                <img src="assets/images/Kaustav-Lodh-image1.jpg" alt="Customer_Image"  class="img-fluid">
                                             </div>
                                             <div class=" col-lg-3 col-sm-3 col-4">
-                                                <img src="assets/images/Kaustav-Lodh-image1.jpg" class="img-fluid">
+                                                <img src="assets/images/Kaustav-Lodh-image1.jpg" alt="Customer_Image" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="row">
@@ -594,7 +1095,7 @@
                                         </p>
                                         <div class="row">
                                             <div class="col-xl-3 col-lg-3 col-md-4">
-                                                <img src="assets/images/customer-review-photo1.jpg" class="img-fluid">
+                                                <img src="assets/images/customer-review-photo1.jpg" alt="Customer_Image" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="row">
@@ -652,7 +1153,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/profile-image2.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/profile-image2.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                             <div class="cardItemRating">
                                 <span>4.1</span>
                                 <i class="fa-solid fa-star"></i>
@@ -677,7 +1178,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/profile-image8.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/profile-image8.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                             <div class="cardItemRating">
                                 <span>4.0</span>
                                 <i class="fa-solid fa-star"></i>
@@ -701,7 +1202,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/profile-image15.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/profile-image15.jpg" alt="Customer_Image"  class="card-img-top img-fluid">
                             <div class="cardItemRating">
                                 <span>4.4</span>
                                 <i class="fa-solid fa-star"></i>
@@ -724,7 +1225,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/profile-image-3.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/profile-image-3.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                             <div class="cardItemRating">
                                 <span>4.2</span>
                                 <i class="fa-solid fa-star"></i>
@@ -747,7 +1248,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/profile-image10.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/profile-image10.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                             <div class="cardItemRating">
                                 <span>4.1</span>
                                 <i class="fa-solid fa-star"></i>
@@ -770,7 +1271,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/profile-image12.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/profile-image12.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                             <div class="cardItemRating">
                                 <span>4.1</span>
                                 <i class="fa-solid fa-star"></i>
@@ -793,7 +1294,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/profile-image5.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/profile-image5.jpg"  alt="Customer_Image" class="card-img-top img-fluid">
                             <div class="cardItemRating">
                                 <span>4.1</span>
                                 <i class="fa-solid fa-star"></i>
@@ -816,7 +1317,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/card_image1.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/card_image1.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                             <div class="cardItemRating">
                                 <span>4.1</span>
                                 <i class="fa-solid fa-star"></i>
@@ -839,7 +1340,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/card_image2.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/card_image2.jpg"  alt="Customer_Image" class="card-img-top img-fluid">
                             <div class="cardItemRating">
                                 <span>4.1</span>
                                 <i class="fa-solid fa-star"></i>
@@ -862,7 +1363,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/card_image3.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/card_image3.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                             <div class="cardItemRating">
                                 <span>4.1</span>
                                 <i class="fa-solid fa-star"></i>
@@ -885,7 +1386,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/card_image4.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/card_image4.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                             <div class="cardItemRating">
                                 <span>4.1</span>
                                 <i class="fa-solid fa-star"></i>
@@ -908,7 +1409,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/card_image5.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/card_image5.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                             <div class="cardItemRating">
                                 <span>4.1</span>
                                 <i class="fa-solid fa-star"></i>
@@ -931,7 +1432,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/card_image6.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/card_image6.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                             <div class="cardItemRating">
                                 <span>4.1</span>
                                 <i class="fa-solid fa-star"></i>
@@ -954,7 +1455,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/card_image7.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/card_image7.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                             <div class="cardItemRating">
                                 <span>4.1</span>
                                 <i class="fa-solid fa-star"></i>
@@ -975,7 +1476,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/card_image8.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/card_image8.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                             <div class="cardItemRating">
                                 <span>4.1</span>
                                 <i class="fa-solid fa-star"></i>
@@ -1033,7 +1534,7 @@
             
                 <div class="col">
                     <div class="card mb-4 pointer">
-                        <img src="assets/images/additional-product-1.jpg" class="card-img-top img-fluid">
+                        <img src="assets/images/additional-product-1.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                         <hr class="horiozontalRule hrMargin">
                         
                         <div class="card-body">
@@ -1053,7 +1554,7 @@
                 </div>
                 <div class="col">
                     <div class="card mb-4 pointer">
-                        <img src="assets/images/additional-product-2.jpg" class="card-img-top img-fluid">
+                        <img src="assets/images/additional-product-2.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                         <hr class="horiozontalRule hrMargin">
                         <div class="card-body">
                             <h5 class="card-title color fontWeight deliveryOptions">Calvadoss</h5>
@@ -1072,7 +1573,7 @@
 
                 <div class="col">
                     <div class="card mb-4 pointer">
-                        <img src="assets/images/additional-product-3.jpg" class="card-img-top img-fluid">
+                        <img src="assets/images/additional-product-3.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                         <hr class="horiozontalRule hrMargin">
                         <div class="card-body">
                             <h5 class="card-title color fontWeight deliveryOptions">HERE&NOW</h5>
@@ -1090,7 +1591,7 @@
                 </div>
                 <div class="col">
                     <div class="card mb-4 pointer">
-                        <img src="assets/images/additional-product-4.jpg" class="card-img-top img-fluid">
+                        <img src="assets/images/additional-product-4.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                         <hr class="horizontalRule hrMargin">     
                         <div class="card-body"> 
                             <h5 class="card-title color fontWeight deliveryOptions">Softweave</h5>
@@ -1106,7 +1607,7 @@
                 </div>
                 <div class="col">
                     <div class="card mb-4 pointer">
-                        <img src="assets/images/additional-product-5.jpg" class="card-img-top img-fluid">
+                        <img src="assets/images/additional-product-5.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                         <hr class="hrWidth hrMargin">
                         <div class="card-body">
                             <h5 class="card-title color fontWeight deliveryOptions">WildHorn</h5>
@@ -1124,7 +1625,7 @@
 
                 <div class="col">
                     <div class="card mb-4 pointer">
-                        <img src="assets/images/additional-product-5.jpg" class="card-img-top img-fluid">
+                        <img src="assets/images/additional-product-5.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                         <hr class="hrWidth hrMargin">
                         <div class="card-body">
                             <h5 class="card-title color fontWeight deliveryOptions">WildHorn</h5>
@@ -1142,7 +1643,7 @@
 
                 <div class="col">
                     <div class="card mb-4 pointer">
-                        <img src="assets/images/additional-product-7.jpg" class="card-img-top img-fluid">
+                        <img src="assets/images/additional-product-7.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                         <hr class="hrWidth hrMargin">
                         <div class="card-body">
                             <h5 class="card-title color fontWeight deliveryOptions">WildHorn</h5>
@@ -1160,7 +1661,7 @@
 
                 <div class="col">
                     <div class="card mb-4 pointer">
-                        <img src="assets/images/additional-product-8.jpg" class="card-img-top img-fluid">
+                        <img src="assets/images/additional-product-8.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                         <hr class="hrWidth hrMargin">
                         <div class="card-body">
                             <h5 class="card-title color fontWeight deliveryOptions">Blacksmith</h5>
@@ -1178,7 +1679,7 @@
 
                 <div class="col">
                     <div class="card mb-4 pointer">
-                        <img src="assets/images/additional-product-9.jpg" class="card-img-top img-fluid">
+                        <img src="assets/images/additional-product-9.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                         <hr class="hrWidth hrMargin">
                         <div class="card-body">
                             <h5 class="card-title color fontWeight deliveryOptions">MANCODE</h5>
@@ -1197,7 +1698,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
 
-                        <img src="assets/images/additional-product-10.jpg" class="card-img-top img-fluid">
+                        <img src="assets/images/additional-product-10.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                         <hr class="hrWidth hrMargin">
                         <div class="card-body">
                             <h5 class="card-title color fontWeight deliveryOptions">MASQ</h5>
@@ -1215,7 +1716,7 @@
 
                 <div class="col">
                     <div class="card mb-4 pointer">
-                        <img src="assets/images/additional-product-7.jpg" class="card-img-top img-fluid">
+                        <img src="assets/images/additional-product-7.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                         <hr class="hrWidth hrMargin">
                         <div class="card-body">
                             <h5 class="card-title color fontWeight deliveryOptions">WildHorn</h5>
@@ -1233,7 +1734,7 @@
 
                 <div class="col">
                     <div class="card mb-4 pointer">
-                        <img src="assets/images/additional-product-12.jpg" class="card-img-top img-fluid">
+                        <img src="assets/images/additional-product-12.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                         <hr class="hrWidth hrMargin">
                         <div class="card-body">
                             <h5 class="card-title color fontWeight deliveryOptions">amicraft</h5>
@@ -1251,7 +1752,7 @@
 
                 <div class="col">
                     <div class="card mb-4 pointer">
-                        <img src="assets/images/additional-product-13.jpg" class="card-img-top img-fluid">
+                        <img src="assets/images/additional-product-13.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                         <hr class="hrWidth hrMargin"> 
                         <div class="card-body">
                             <h5 class="card-title color fontWeight deliveryOptions">WildHorn</h5>
@@ -1269,7 +1770,7 @@
 
                 <div class="col">
                     <div class="card mb-4 pointer">
-                        <img src="assets/images/additional-product-14.jpg" class="card-img-top img-fluid">
+                        <img src="assets/images/additional-product-14.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                         <hr class="hrWidth hrMargin">
                         <div class="card-body">
                             <h5 class="card-title color fontWeight deliveryOptions">Blacksmith</h5>
@@ -1288,7 +1789,7 @@
                 <div class="col">
                     <div class="card mb-4 pointer">
                         <div class="cardImage">
-                            <img src="assets/images/additional-product-15.jpg" class="card-img-top img-fluid">
+                            <img src="assets/images/additional-product-15.jpg" alt="Customer_Image" class="card-img-top img-fluid">
                             <hr class="hrWidth hrMargin">
                             <div class="cardItemRating">
                                 <span>4.1</span>
@@ -1337,10 +1838,12 @@
                             <a href="#" class="color text-decoration-none fontSize  anchorColor">Gift Cards</a>
                         </div>
                         <div>
-                            <a href="#" class="color text-decoration-none fontSize  anchorColor">
+                            <div class="fontSize  anchorColor color">
                                 Myntra Insider
-                                <button class="footerButton fontWeight ratingTextCount">New</button>
-                            </a>
+                                <button class=" footerButton fontWeight ratingTextCount">
+                                    New
+                                </button>         
+                            </div>                           
                         </div>  
                     </div>
 
@@ -1535,8 +2038,3 @@
         <script src="js/bootstrap_js.js"></script>
     </body>
 </html>
-
-
-<!-- 
-<button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
-      <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> Download</button> -->
