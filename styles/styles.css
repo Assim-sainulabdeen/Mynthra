@@ -11,15 +11,14 @@ body {
 .fa-circle-user {
   font-size: 18px;
 }
-* {
-  box-sizing: border-box;
-}
 .nav-padding {
-  padding: 5px 8px 30px;
+  padding: 8px 7px 30px;
   margin-top: 3px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   border-bottom: 4px solid transparent;
+  color: #282c3f;
+  letter-spacing: 0.3px;
 }
 .searchBar {
   border: none;
@@ -53,6 +52,7 @@ body {
 #headingSection {
   background-color: white;
   box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+  padding: 20px 0;
 }
 .new {
   color: #ff69b4;
@@ -143,7 +143,7 @@ body {
 }
 
 #crumb {
-  margin-top: 10px;
+  margin-top: 100px;
 }
 .text-size {
   font-weight: 600;
