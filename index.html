@@ -10,498 +10,470 @@
         <script src="js/font.js"></script>
     </head>
     <body>
-        <div class="container-fluid">
-            <div class="row"></div>
-            <div class="navbar navbar-expand-lg fixed-top navbar-light bg-white" id="header">
-                <div class="container-fluid justify-content-start">
-                    <button  class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-fluid py-3 fixed-top" id="headingSection">
+            <div class="row">
+                <div class="col-lg-1 col-sm-3  col-4 pe-xl-0 pe-lg-1 ps-lg-5  ps-2 d-lg-block">
+                    <button  class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
                         <i class="fa-solid fa-bars"></i>
                     </button>
-                    <div class="pointer me-sm-5 ms-sm-1 ms-sm-1 me-0" id="logo">
-                        <img src="assets/images/logo.png" alt="Mynthra_logo" id="image">
+                    <img src="assets/images/logo.png" alt="logo-image" class="logo">
+                </div>
+                <div class="offcanvas d-lg-none d-block offcanvas-start offcanvasMenu" id="demo">
+                    <div class="offcanvas-header">
+                      <div class="offcanvas-title">
+                        <img src="assets/images/logo.png" class="ps-4" alt="logo-image">
+                      </div>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
                     </div>
-                    <div class="offcanvas d-lg-none d-block offcanvas-start offcanvasMenu" id="demo">
-                        <div class="offcanvas-header">
-                          <div class="offcanvas-title">
-                            <img src="assets/images/logo.png" class="ps-4" alt="logo-image">
-                          </div>
-                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                           <div class="container">
-                            <a class="nav-link canvas-color" aria-current="page" href="#">MEN</a>
-                            <a class="nav-link canvas-color" aria-current="page" href="#">WOMEN</a>
-                            <a class="nav-link canvas-color" aria-current="page" href="#">KIDS</a>
-                            <a class="nav-link canvas-color" aria-current="page" href="#">HOME&LIVING</a>
-                            <a class="nav-link canvas-color" aria-current="page" href="#">BEAUTY</a>
-                            <a class="nav-link canvas-color" aria-current="page" href="#">STUDIO</a>
-                           </div>
-                        </div>
+                    <div class="offcanvas-body p-0">
+                       <div class="container">
+                        <a class="nav-link canvas-color" aria-current="page" href="#">MEN</a>
+                        <a class="nav-link canvas-color" aria-current="page" href="#">WOMEN</a>
+                        <a class="nav-link canvas-color" aria-current="page" href="#">KIDS</a>
+                        <a class="nav-link canvas-color" aria-current="page" href="#">HOME&LIVING</a>
+                        <a class="nav-link canvas-color" aria-current="page" href="#">BEAUTY</a>
+                        <a class="nav-link canvas-color" aria-current="page" href="#">STUDIO</a>
+                       </div>
                     </div>
-                    <div id="mynavbar">
-                        <div class="navbar-nav d-lg-flex d-none me-0 justify-content-around  gap-2">
-                            <span class="nav-item men pointer">
-                                <a class="nav-link active " href="#">
-                                    <strong>MEN</strong>
-                                    <div class="container men-dress-details">
-                                        <div class="row">
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>TopWear</b></div>
-                                                <div class="desktopHoverLink">T-Shirts</div>
-                                                <div class="desktopHoverLink">Casual Shirts</div>
-                                                <div class="desktopHoverLink"> Formal Shirts</div>
-                                                <div class="desktopHoverLink"> Sweatshirts</div>
-                                                <div class="desktopHoverLink"> Sweaters</div>
-                                                <div class="desktopHoverLink">Jackets</div>
-                                                <div class="desktopHoverLink">Blazers & Coats</div>
-                                                <div class="desktopHoverLink"> Suits</div>
-                                                <div class="desktopHoverLink">Rain Jackets</div><hr class="headerRule">
-                                                <div class="headerColor headerSpecs"><b>Indian Festive Wear</b></div>
-                                                <div class="desktopHoverLink">Kurtas & Kurta Sets</div>
-                                                <div class="desktopHoverLink">Sherwanis</div>
-                                                <div class="desktopHoverLink">Nehru Jackets</div>
-                                                <div class="desktopHoverLink">Dhotis</div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Bottom Wear</b></div>
-                                                <div class="desktopHoverLink">Jeans</div>
-                                                <div class="desktopHoverLink">Casual Trousers</div>
-                                                <div class="desktopHoverLink">Formal Trousers</div>     
-                                                <div class="desktopHoverLink">Shorts</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Innerwear & SleepWears</b></div>
-                                                <div class="desktopHoverLink">Briefs & Trunks</div>
-                                                <div class="desktopHoverLink">Boxers</div>
-                                                <div class="desktopHoverLink">Vests</div>
-                                                <div class="desktopHoverLink">Sleepwear & Loungewear</div>
-                                                <div class="desktopHoverLink">Thermals</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Plus Size</b></div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Foot Wear</b></div>
-                                                <div class="desktopHoverLink">Casual Shoes</div>
-                                                <div class="desktopHoverLink">Sports Shoes</div>
-                                                <div class="desktopHoverLink">Formal Shoes</div>     
-                                                <div class="desktopHoverLink">Sneakers</div>
-                                                <div class="desktopHoverLink">Sandals & Floaters</div>
-                                                <div class="desktopHoverLink">Flip Flops</div> class="desktopHoverLink"
-                                                <div class="desktopHoverLink">Socks</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Personal Care & Grooming</b></div>
-                                                <div class="headerSpecs headerColor"><b>Sunglasses & Frames</b></div>
-                                                <div class="headerSpecs headerColor"><b>Watches</b></div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Sports & Active Wear</b></div>
-                                                <div class="desktopHoverLink">Sports Shoes</div>
-                                                <div class="desktopHoverLink">Sports Sandals</div>
-                                                <div class="desktopHoverLink">Active T-Shirts</div>     
-                                                <div class="desktopHoverLink">Track Pants & Shorts</div>
-                                                <div class="desktopHoverLink">Tracksuits</div>
-                                                <div class="desktopHoverLink">Jackets & Sweatshirts</div>
-                                                <div class="desktopHoverLink">Sports Accessories</div>
-                                                <div class="desktopHoverLink">Swimwear</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Gadgets</b></div>
-                                                <div class="desktopHoverLink">Fitness Gadgets</div>
-                                                <div class="desktopHoverLink">Headphones</div>
-                                                <div class="desktopHoverLink">Speakers</div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Fashion Accessories</b></div>
-                                                <div class="desktopHoverLink">Wallets</div>
-                                                <div class="desktopHoverLink">Belts</div>
-                                                <div class="desktopHoverLink">Perfumes & Body Mists</div>     
-                                                <div class="desktopHoverLink">Trimmers</div>
-                                                <div class="desktopHoverLink">Deodorants</div>
-                                                <div class="desktopHoverLink">Ties, Cufflinks & Pocket Squares</div>
-                                                <div class="desktopHoverLink">Accessory Gift Sets</div>
-                                                <div class="desktopHoverLink">Caps & Hats</div>
-                                                <div class="desktopHoverLink">Mufflers, Scarves & Gloves</div>
-                                                <div class="desktopHoverLink">Phone Cases</div>
-                                                <div class="desktopHoverLink">Rings & Wristwear</div>
-                                                <div class="desktopHoverLink">Helmets</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Bags & Backpacks</b></div>
-                                                <div class="headerSpecs headerColor"><b>Luggages & Trolleys</b></div>
-                                            </div>
-                                        </div>
-                                    </div>                 
-                                </a>
-                            </span>
-                            <span class="nav-item women pointer">
-                                <a class="nav-link active" href="#">
-                                    <strong>WOMEN</strong>
-                                    <div class="container men-dress-details">
-                                        <div class="row">
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>TopWear</b></div>
-                                                <div class="desktopHoverLink">T-Shirts</div>
-                                                <div class="desktopHoverLink">Casual Shirts</div>
-                                                <div class="desktopHoverLink"> Formal Shirts</div>
-                                                <div class="desktopHoverLink"> Sweatshirts</div>
-                                                <div class="desktopHoverLink"> Sweaters</div>
-                                                <div class="desktopHoverLink">Jackets</div>
-                                                <div class="desktopHoverLink">Blazers & Coats</div>
-                                                <div class="desktopHoverLink"> Suits</div>
-                                                <div class="desktopHoverLink">Rain Jackets</div><hr class="headerRule">
-                                                <div class="headerColor headerSpecs"><b>Indian Festive Wear</b></div>
-                                                <div class="desktopHoverLink">Kurtas & Kurta Sets</div>
-                                                <div class="desktopHoverLink">Sherwanis</div>
-                                                <div class="desktopHoverLink">Nehru Jackets</div>
-                                                <div class="desktopHoverLink">Dhotis</div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Bottom Wear</b></div>
-                                                <div class="desktopHoverLink">Jeans</div>
-                                                <div class="desktopHoverLink">Casual Trousers</div>
-                                                <div class="desktopHoverLink">Formal Trousers</div>     
-                                                <div class="desktopHoverLink">Shorts</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Innerwear & SleepWears</b></div>
-                                                <div class="desktopHoverLink">Briefs & Trunks</div>
-                                                <div class="desktopHoverLink">Boxers</div>
-                                                <div class="desktopHoverLink">Vests</div>
-                                                <div class="desktopHoverLink">Sleepwear & Loungewear</div>
-                                                <div class="desktopHoverLink">Thermals</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Plus Size</b></div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Foot Wear</b></div>
-                                                <div class="desktopHoverLink">Casual Shoes</div>
-                                                <div class="desktopHoverLink">Sports Shoes</div>
-                                                <div class="desktopHoverLink">Formal Shoes</div>     
-                                                <div class="desktopHoverLink">Sneakers</div>
-                                                <div class="desktopHoverLink">Sandals & Floaters</div>
-                                                <div class="desktopHoverLink">Flip Flops</div> class="desktopHoverLink"
-                                                <div class="desktopHoverLink">Socks</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Personal Care & Grooming</b></div>
-                                                <div class="headerSpecs headerColor"><b>Sunglasses & Frames</b></div>
-                                                <div class="headerSpecs headerColor"><b>Watches</b></div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Sports & Active Wear</b></div>
-                                                <div class="desktopHoverLink">Sports Shoes</div>
-                                                <div class="desktopHoverLink">Sports Sandals</div>
-                                                <div class="desktopHoverLink">Active T-Shirts</div>     
-                                                <div class="desktopHoverLink">Track Pants & Shorts</div>
-                                                <div class="desktopHoverLink">Tracksuits</div>
-                                                <div class="desktopHoverLink">Jackets & Sweatshirts</div>
-                                                <div class="desktopHoverLink">Sports Accessories</div>
-                                                <div class="desktopHoverLink">Swimwear</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Gadgets</b></div>
-                                                <div class="desktopHoverLink">Fitness Gadgets</div>
-                                                <div class="desktopHoverLink">Headphones</div>
-                                                <div class="desktopHoverLink">Speakers</div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Fashion Accessories</b></div>
-                                                <div class="desktopHoverLink">Wallets</div>
-                                                <div class="desktopHoverLink">Belts</div>
-                                                <div class="desktopHoverLink">Perfumes & Body Mists</div>     
-                                                <div class="desktopHoverLink">Trimmers</div>
-                                                <div class="desktopHoverLink">Deodorants</div>
-                                                <div class="desktopHoverLink">Ties, Cufflinks & Pocket Squares</div>
-                                                <div class="desktopHoverLink">Accessory Gift Sets</div>
-                                                <div class="desktopHoverLink">Caps & Hats</div>
-                                                <div class="desktopHoverLink">Mufflers, Scarves & Gloves</div>
-                                                <div class="desktopHoverLink">Phone Cases</div>
-                                                <div class="desktopHoverLink">Rings & Wristwear</div>
-                                                <div class="desktopHoverLink">Helmets</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Bags & Backpacks</b></div>
-                                                <div class="headerSpecs headerColor"><b>Luggages & Trolleys</b></div>
-                                            </div>
-                                        </div>
-                                    </div>     
-                                </a>
-                            </span>
-                            <span class="nav-item kids pointer">
-                                <a class="nav-link active" href="#">
-                                    <strong>KIDS</strong>
-                                    <div class="container men-dress-details">
-                                        <div class="row">
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>TopWear</b></div>
-                                                <div class="desktopHoverLink">T-Shirts</div>
-                                                <div class="desktopHoverLink">Casual Shirts</div>
-                                                <div class="desktopHoverLink"> Formal Shirts</div>
-                                                <div class="desktopHoverLink"> Sweatshirts</div>
-                                                <div class="desktopHoverLink"> Sweaters</div>
-                                                <div class="desktopHoverLink">Jackets</div>
-                                                <div class="desktopHoverLink">Blazers & Coats</div>
-                                                <div class="desktopHoverLink"> Suits</div>
-                                                <div class="desktopHoverLink">Rain Jackets</div><hr class="headerRule">
-                                                <div class="headerColor headerSpecs"><b>Indian Festive Wear</b></div>
-                                                <div class="desktopHoverLink">Kurtas & Kurta Sets</div>
-                                                <div class="desktopHoverLink">Sherwanis</div>
-                                                <div class="desktopHoverLink">Nehru Jackets</div>
-                                                <div class="desktopHoverLink">Dhotis</div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Bottom Wear</b></div>
-                                                <div class="desktopHoverLink">Jeans</div>
-                                                <div class="desktopHoverLink">Casual Trousers</div>
-                                                <div class="desktopHoverLink">Formal Trousers</div>     
-                                                <div class="desktopHoverLink">Shorts</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Innerwear & SleepWears</b></div>
-                                                <div class="desktopHoverLink">Briefs & Trunks</div>
-                                                <div class="desktopHoverLink">Boxers</div>
-                                                <div class="desktopHoverLink">Vests</div>
-                                                <div class="desktopHoverLink">Sleepwear & Loungewear</div>
-                                                <div class="desktopHoverLink">Thermals</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Plus Size</b></div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Foot Wear</b></div>
-                                                <div class="desktopHoverLink">Casual Shoes</div>
-                                                <div class="desktopHoverLink">Sports Shoes</div>
-                                                <div class="desktopHoverLink">Formal Shoes</div>     
-                                                <div class="desktopHoverLink">Sneakers</div>
-                                                <div class="desktopHoverLink">Sandals & Floaters</div>
-                                                <div class="desktopHoverLink">Flip Flops</div> class="desktopHoverLink"
-                                                <div class="desktopHoverLink">Socks</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Personal Care & Grooming</b></div>
-                                                <div class="headerSpecs headerColor"><b>Sunglasses & Frames</b></div>
-                                                <div class="headerSpecs headerColor"><b>Watches</b></div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Sports & Active Wear</b></div>
-                                                <div class="desktopHoverLink">Sports Shoes</div>
-                                                <div class="desktopHoverLink">Sports Sandals</div>
-                                                <div class="desktopHoverLink">Active T-Shirts</div>     
-                                                <div class="desktopHoverLink">Track Pants & Shorts</div>
-                                                <div class="desktopHoverLink">Tracksuits</div>
-                                                <div class="desktopHoverLink">Jackets & Sweatshirts</div>
-                                                <div class="desktopHoverLink">Sports Accessories</div>
-                                                <div class="desktopHoverLink">Swimwear</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Gadgets</b></div>
-                                                <div class="desktopHoverLink">Fitness Gadgets</div>
-                                                <div class="desktopHoverLink">Headphones</div>
-                                                <div class="desktopHoverLink">Speakers</div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Fashion Accessories</b></div>
-                                                <div class="desktopHoverLink">Wallets</div>
-                                                <div class="desktopHoverLink">Belts</div>
-                                                <div class="desktopHoverLink">Perfumes & Body Mists</div>     
-                                                <div class="desktopHoverLink">Trimmers</div>
-                                                <div class="desktopHoverLink">Deodorants</div>
-                                                <div class="desktopHoverLink">Ties, Cufflinks & Pocket Squares</div>
-                                                <div class="desktopHoverLink">Accessory Gift Sets</div>
-                                                <div class="desktopHoverLink">Caps & Hats</div>
-                                                <div class="desktopHoverLink">Mufflers, Scarves & Gloves</div>
-                                                <div class="desktopHoverLink">Phone Cases</div>
-                                                <div class="desktopHoverLink">Rings & Wristwear</div>
-                                                <div class="desktopHoverLink">Helmets</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Bags & Backpacks</b></div>
-                                                <div class="headerSpecs headerColor"><b>Luggages & Trolleys</b></div>
-                                            </div>
-                                        </div>
-                                    </div>  
-                                </a>
-                            </span>
-
-                            <span class="nav-item home pointer">
-                                <a class="nav-link active" href="#">
-                                    <strong>HOME & LIVING</strong>
-                                    <div class="container men-dress-details">
-                                        <div class="row">
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>TopWear</b></div>
-                                                <div class="desktopHoverLink">T-Shirts</div>
-                                                <div class="desktopHoverLink">Casual Shirts</div>
-                                                <div class="desktopHoverLink"> Formal Shirts</div>
-                                                <div class="desktopHoverLink"> Sweatshirts</div>
-                                                <div class="desktopHoverLink"> Sweaters</div>
-                                                <div class="desktopHoverLink">Jackets</div>
-                                                <div class="desktopHoverLink">Blazers & Coats</div>
-                                                <div class="desktopHoverLink"> Suits</div>
-                                                <div class="desktopHoverLink">Rain Jackets</div><hr class="headerRule">
-                                                <div class="headerColor headerSpecs"><b>Indian Festive Wear</b></div>
-                                                <div class="desktopHoverLink">Kurtas & Kurta Sets</div>
-                                                <div class="desktopHoverLink">Sherwanis</div>
-                                                <div class="desktopHoverLink">Nehru Jackets</div>
-                                                <div class="desktopHoverLink">Dhotis</div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Bottom Wear</b></div>
-                                                <div class="desktopHoverLink">Jeans</div>
-                                                <div class="desktopHoverLink">Casual Trousers</div>
-                                                <div class="desktopHoverLink">Formal Trousers</div>     
-                                                <div class="desktopHoverLink">Shorts</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Innerwear & SleepWears</b></div>
-                                                <div class="desktopHoverLink">Briefs & Trunks</div>
-                                                <div class="desktopHoverLink">Boxers</div>
-                                                <div class="desktopHoverLink">Vests</div>
-                                                <div class="desktopHoverLink">Sleepwear & Loungewear</div>
-                                                <div class="desktopHoverLink">Thermals</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Plus Size</b></div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Foot Wear</b></div>
-                                                <div class="desktopHoverLink">Casual Shoes</div>
-                                                <div class="desktopHoverLink">Sports Shoes</div>
-                                                <div class="desktopHoverLink">Formal Shoes</div>     
-                                                <div class="desktopHoverLink">Sneakers</div>
-                                                <div class="desktopHoverLink">Sandals & Floaters</div>
-                                                <div class="desktopHoverLink">Flip Flops</div> class="desktopHoverLink"
-                                                <div class="desktopHoverLink">Socks</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Personal Care & Grooming</b></div>
-                                                <div class="headerSpecs headerColor"><b>Sunglasses & Frames</b></div>
-                                                <div class="headerSpecs headerColor"><b>Watches</b></div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Sports & Active Wear</b></div>
-                                                <div class="desktopHoverLink">Sports Shoes</div>
-                                                <div class="desktopHoverLink">Sports Sandals</div>
-                                                <div class="desktopHoverLink">Active T-Shirts</div>     
-                                                <div class="desktopHoverLink">Track Pants & Shorts</div>
-                                                <div class="desktopHoverLink">Tracksuits</div>
-                                                <div class="desktopHoverLink">Jackets & Sweatshirts</div>
-                                                <div class="desktopHoverLink">Sports Accessories</div>
-                                                <div class="desktopHoverLink">Swimwear</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Gadgets</b></div>
-                                                <div class="desktopHoverLink">Fitness Gadgets</div>
-                                                <div class="desktopHoverLink">Headphones</div>
-                                                <div class="desktopHoverLink">Speakers</div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Fashion Accessories</b></div>
-                                                <div class="desktopHoverLink">Wallets</div>
-                                                <div class="desktopHoverLink">Belts</div>
-                                                <div class="desktopHoverLink">Perfumes & Body Mists</div>     
-                                                <div class="desktopHoverLink">Trimmers</div>
-                                                <div class="desktopHoverLink">Deodorants</div>
-                                                <div class="desktopHoverLink">Ties, Cufflinks & Pocket Squares</div>
-                                                <div class="desktopHoverLink">Accessory Gift Sets</div>
-                                                <div class="desktopHoverLink">Caps & Hats</div>
-                                                <div class="desktopHoverLink">Mufflers, Scarves & Gloves</div>
-                                                <div class="desktopHoverLink">Phone Cases</div>
-                                                <div class="desktopHoverLink">Rings & Wristwear</div>
-                                                <div class="desktopHoverLink">Helmets</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Bags & Backpacks</b></div>
-                                                <div class="headerSpecs headerColor"><b>Luggages & Trolleys</b></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </span>
-    
-                            <span class="nav-item beauty pointer">
-                                <a class="nav-link active" href="#">
-                                    <strong>BEAUTY</strong>
-                                    <div class="container men-dress-details">
-                                        <div class="row">
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>TopWear</b></div>
-                                                <div class="desktopHoverLink">T-Shirts</div>
-                                                <div class="desktopHoverLink">Casual Shirts</div>
-                                                <div class="desktopHoverLink"> Formal Shirts</div>
-                                                <div class="desktopHoverLink"> Sweatshirts</div>
-                                                <div class="desktopHoverLink"> Sweaters</div>
-                                                <div class="desktopHoverLink">Jackets</div>
-                                                <div class="desktopHoverLink">Blazers & Coats</div>
-                                                <div class="desktopHoverLink"> Suits</div>
-                                                <div class="desktopHoverLink">Rain Jackets</div><hr class="headerRule">
-                                                <div class="headerColor headerSpecs"><b>Indian Festive Wear</b></div>
-                                                <div class="desktopHoverLink">Kurtas & Kurta Sets</div>
-                                                <div class="desktopHoverLink">Sherwanis</div>
-                                                <div class="desktopHoverLink">Nehru Jackets</div>
-                                                <div class="desktopHoverLink">Dhotis</div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Bottom Wear</b></div>
-                                                <div class="desktopHoverLink">Jeans</div>
-                                                <div class="desktopHoverLink">Casual Trousers</div>
-                                                <div class="desktopHoverLink">Formal Trousers</div>     
-                                                <div class="desktopHoverLink">Shorts</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Innerwear & SleepWears</b></div>
-                                                <div class="desktopHoverLink">Briefs & Trunks</div>
-                                                <div class="desktopHoverLink">Boxers</div>
-                                                <div class="desktopHoverLink">Vests</div>
-                                                <div class="desktopHoverLink">Sleepwear & Loungewear</div>
-                                                <div class="desktopHoverLink">Thermals</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Plus Size</b></div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Foot Wear</b></div>
-                                                <div class="desktopHoverLink">Casual Shoes</div>
-                                                <div class="desktopHoverLink">Sports Shoes</div>
-                                                <div class="desktopHoverLink">Formal Shoes</div>     
-                                                <div class="desktopHoverLink">Sneakers</div>
-                                                <div class="desktopHoverLink">Sandals & Floaters</div>
-                                                <div class="desktopHoverLink">Flip Flops</div> class="desktopHoverLink"
-                                                <div class="desktopHoverLink">Socks</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Personal Care & Grooming</b></div>
-                                                <div class="headerSpecs headerColor"><b>Sunglasses & Frames</b></div>
-                                                <div class="headerSpecs headerColor"><b>Watches</b></div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Sports & Active Wear</b></div>
-                                                <div class="desktopHoverLink">Sports Shoes</div>
-                                                <div class="desktopHoverLink">Sports Sandals</div>
-                                                <div class="desktopHoverLink">Active T-Shirts</div>     
-                                                <div class="desktopHoverLink">Track Pants & Shorts</div>
-                                                <div class="desktopHoverLink">Tracksuits</div>
-                                                <div class="desktopHoverLink">Jackets & Sweatshirts</div>
-                                                <div class="desktopHoverLink">Sports Accessories</div>
-                                                <div class="desktopHoverLink">Swimwear</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Gadgets</b></div>
-                                                <div class="desktopHoverLink">Fitness Gadgets</div>
-                                                <div class="desktopHoverLink">Headphones</div>
-                                                <div class="desktopHoverLink">Speakers</div>
-                                            </div>
-                                            <div class="col pb-3">
-                                                <div class="header headerColor"><b>Fashion Accessories</b></div>
-                                                <div class="desktopHoverLink">Wallets</div>
-                                                <div class="desktopHoverLink">Belts</div>
-                                                <div class="desktopHoverLink">Perfumes & Body Mists</div>     
-                                                <div class="desktopHoverLink">Trimmers</div>
-                                                <div class="desktopHoverLink">Deodorants</div>
-                                                <div class="desktopHoverLink">Ties, Cufflinks & Pocket Squares</div>
-                                                <div class="desktopHoverLink">Accessory Gift Sets</div>
-                                                <div class="desktopHoverLink">Caps & Hats</div>
-                                                <div class="desktopHoverLink">Mufflers, Scarves & Gloves</div>
-                                                <div class="desktopHoverLink">Phone Cases</div>
-                                                <div class="desktopHoverLink">Rings & Wristwear</div>
-                                                <div class="desktopHoverLink">Helmets</div><hr class="headerRule">
-                                                <div class="headerSpecs headerColor"><b>Bags & Backpacks</b></div>
-                                                <div class="headerSpecs headerColor"><b>Luggages & Trolleys</b></div>
-                                            </div>
-                                        </div>
-                                    </div>  
-                                </a>
-                            </span>
-                            <div class="nav-item studio pointer">
-                                <a class="nav-link active" href="#">
-                                    <strong>STUDIO<sup class="new">NEW</sup></strong>
-                                </a>
-                                <div class="container studio-details">
-                                    <div class="row">
-                                        <div class="col">
-                                            <img src="assets/images/studio-nav-banner.png" class="img-fluid" alt="studio_Image">
-                                        </div>
-                                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 d-lg-inline d-none mt-1">
+                    <div class="d-inline nav-padding men pointer">MEN
+                        <div class="container men-dress-details">
+                            <div class="row">
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>TopWear</b></div>
+                                    <div class="desktopHoverLink">T-Shirts</div>
+                                    <div class="desktopHoverLink">Casual Shirts</div>
+                                    <div class="desktopHoverLink"> Formal Shirts</div>
+                                    <div class="desktopHoverLink"> Sweatshirts</div>
+                                    <div class="desktopHoverLink"> Sweaters</div>
+                                    <div class="desktopHoverLink">Jackets</div>
+                                    <div class="desktopHoverLink">Blazers & Coats</div>
+                                    <div class="desktopHoverLink"> Suits</div>
+                                    <div class="desktopHoverLink">Rain Jackets</div><hr class="headerRule">
+                                    <div class="headerColor headerSpecs"><b>Indian Festive Wear</b></div>
+                                    <div class="desktopHoverLink">Kurtas & Kurta Sets</div>
+                                    <div class="desktopHoverLink">Sherwanis</div>
+                                    <div class="desktopHoverLink">Nehru Jackets</div>
+                                    <div class="desktopHoverLink">Dhotis</div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Bottom Wear</b></div>
+                                    <div class="desktopHoverLink">Jeans</div>
+                                    <div class="desktopHoverLink">Casual Trousers</div>
+                                    <div class="desktopHoverLink">Formal Trousers</div>     
+                                    <div class="desktopHoverLink">Shorts</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Innerwear & SleepWears</b></div>
+                                    <div class="desktopHoverLink">Briefs & Trunks</div>
+                                    <div class="desktopHoverLink">Boxers</div>
+                                    <div class="desktopHoverLink">Vests</div>
+                                    <div class="desktopHoverLink">Sleepwear & Loungewear</div>
+                                    <div class="desktopHoverLink">Thermals</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Plus Size</b></div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Foot Wear</b></div>
+                                    <div class="desktopHoverLink">Casual Shoes</div>
+                                    <div class="desktopHoverLink">Sports Shoes</div>
+                                    <div class="desktopHoverLink">Formal Shoes</div>     
+                                    <div class="desktopHoverLink">Sneakers</div>
+                                    <div class="desktopHoverLink">Sandals & Floaters</div>
+                                    <div class="desktopHoverLink">Flip Flops</div>
+                                    <div class="desktopHoverLink">Socks</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Personal Care & Grooming</b></div>
+                                    <div class="headerSpecs headerColor"><b>Sunglasses & Frames</b></div>
+                                    <div class="headerSpecs headerColor"><b>Watches</b></div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Sports & Active Wear</b></div>
+                                    <div class="desktopHoverLink">Sports Shoes</div>
+                                    <div class="desktopHoverLink">Sports Sandals</div>
+                                    <div class="desktopHoverLink">Active T-Shirts</div>     
+                                    <div class="desktopHoverLink">Track Pants & Shorts</div>
+                                    <div class="desktopHoverLink">Tracksuits</div>
+                                    <div class="desktopHoverLink">Jackets & Sweatshirts</div>
+                                    <div class="desktopHoverLink">Sports Accessories</div>
+                                    <div class="desktopHoverLink">Swimwear</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Gadgets</b></div>
+                                    <div class="desktopHoverLink">Fitness Gadgets</div>
+                                    <div class="desktopHoverLink">Headphones</div>
+                                    <div class="desktopHoverLink">Speakers</div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Fashion Accessories</b></div>
+                                    <div class="desktopHoverLink">Wallets</div>
+                                    <div class="desktopHoverLink">Belts</div>
+                                    <div class="desktopHoverLink">Perfumes & Body Mists</div>     
+                                    <div class="desktopHoverLink">Trimmers</div>
+                                    <div class="desktopHoverLink">Deodorants</div>
+                                    <div class="desktopHoverLink">Ties, Cufflinks & Pocket Squares</div>
+                                    <div class="desktopHoverLink">Accessory Gift Sets</div>
+                                    <div class="desktopHoverLink">Caps & Hats</div>
+                                    <div class="desktopHoverLink">Mufflers, Scarves & Gloves</div>
+                                    <div class="desktopHoverLink">Phone Cases</div>
+                                    <div class="desktopHoverLink">Rings & Wristwear</div>
+                                    <div class="desktopHoverLink">Helmets</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Bags & Backpacks</b></div>
+                                    <div class="headerSpecs headerColor"><b>Luggages & Trolleys</b></div>
                                 </div>
                             </div>
-                        </div>
+                        </div>                 
                     </div>
-                    <div class="search-box ms-md-5 ms-0">
-                        <form class=" d-flex ms-0 ps-1 d-flex" > 
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                                <input class="content" type="search" placeholder="Search for Products, Brands and More" aria-label="Search">
-                        </form>
+                    <div class="d-inline nav-padding women pointer">WOMEN
+                        <div class="container men-dress-details">
+                            <div class="row">
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>TopWear</b></div>
+                                    <div class="desktopHoverLink">T-Shirts</div>
+                                    <div class="desktopHoverLink">Casual Shirts</div>
+                                    <div class="desktopHoverLink"> Formal Shirts</div>
+                                    <div class="desktopHoverLink"> Sweatshirts</div>
+                                    <div class="desktopHoverLink"> Sweaters</div>
+                                    <div class="desktopHoverLink">Jackets</div>
+                                    <div class="desktopHoverLink">Blazers & Coats</div>
+                                    <div class="desktopHoverLink"> Suits</div>
+                                    <div class="desktopHoverLink">Rain Jackets</div><hr class="headerRule">
+                                    <div class="headerColor headerSpecs"><b>Indian Festive Wear</b></div>
+                                    <div class="desktopHoverLink">Kurtas & Kurta Sets</div>
+                                    <div class="desktopHoverLink">Sherwanis</div>
+                                    <div class="desktopHoverLink">Nehru Jackets</div>
+                                    <div class="desktopHoverLink">Dhotis</div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Bottom Wear</b></div>
+                                    <div class="desktopHoverLink">Jeans</div>
+                                    <div class="desktopHoverLink">Casual Trousers</div>
+                                    <div class="desktopHoverLink">Formal Trousers</div>     
+                                    <div class="desktopHoverLink">Shorts</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Innerwear & SleepWears</b></div>
+                                    <div class="desktopHoverLink">Briefs & Trunks</div>
+                                    <div class="desktopHoverLink">Boxers</div>
+                                    <div class="desktopHoverLink">Vests</div>
+                                    <div class="desktopHoverLink">Sleepwear & Loungewear</div>
+                                    <div class="desktopHoverLink">Thermals</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Plus Size</b></div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Foot Wear</b></div>
+                                    <div class="desktopHoverLink">Casual Shoes</div>
+                                    <div class="desktopHoverLink">Sports Shoes</div>
+                                    <div class="desktopHoverLink">Formal Shoes</div>     
+                                    <div class="desktopHoverLink">Sneakers</div>
+                                    <div class="desktopHoverLink">Sandals & Floaters</div>
+                                    <div class="desktopHoverLink">Flip Flops</div>
+                                    <div class="desktopHoverLink">Socks</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Personal Care & Grooming</b></div>
+                                    <div class="headerSpecs headerColor"><b>Sunglasses & Frames</b></div>
+                                    <div class="headerSpecs headerColor"><b>Watches</b></div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Sports & Active Wear</b></div>
+                                    <div class="desktopHoverLink">Sports Shoes</div>
+                                    <div class="desktopHoverLink">Sports Sandals</div>
+                                    <div class="desktopHoverLink">Active T-Shirts</div>     
+                                    <div class="desktopHoverLink">Track Pants & Shorts</div>
+                                    <div class="desktopHoverLink">Tracksuits</div>
+                                    <div class="desktopHoverLink">Jackets & Sweatshirts</div>
+                                    <div class="desktopHoverLink">Sports Accessories</div>
+                                    <div class="desktopHoverLink">Swimwear</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Gadgets</b></div>
+                                    <div class="desktopHoverLink">Fitness Gadgets</div>
+                                    <div class="desktopHoverLink">Headphones</div>
+                                    <div class="desktopHoverLink">Speakers</div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Fashion Accessories</b></div>
+                                    <div class="desktopHoverLink">Wallets</div>
+                                    <div class="desktopHoverLink">Belts</div>
+                                    <div class="desktopHoverLink">Perfumes & Body Mists</div>     
+                                    <div class="desktopHoverLink">Trimmers</div>
+                                    <div class="desktopHoverLink">Deodorants</div>
+                                    <div class="desktopHoverLink">Ties, Cufflinks & Pocket Squares</div>
+                                    <div class="desktopHoverLink">Accessory Gift Sets</div>
+                                    <div class="desktopHoverLink">Caps & Hats</div>
+                                    <div class="desktopHoverLink">Mufflers, Scarves & Gloves</div>
+                                    <div class="desktopHoverLink">Phone Cases</div>
+                                    <div class="desktopHoverLink">Rings & Wristwear</div>
+                                    <div class="desktopHoverLink">Helmets</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Bags & Backpacks</b></div>
+                                    <div class="headerSpecs headerColor"><b>Luggages & Trolleys</b></div>
+                                </div>
+                            </div>
+                        </div>                 
                     </div>
-                    <div class="ms-3">
-                        <ul  class="navbar-nav ps-4 col-md-auto  d-xl-flex  d-sm-none d-none mb-lg-0 gap-3">
-                            <li  class="nav-item">
-                                <i class="fa-solid fa-circle-user"></i><br>
-                                <span class="sub-title">profile</span>
-                            </li>
-                            <li  class="nav-item">
-                                <i class="fa-solid fa-bag-shopping"></i><br>
-                                <span class="sub-title">Bag</span>
-                            </li>
-                            <li class="nav-item">
-                                <i class="fa-regular fa-heart"></i><br>
-                                <span class="sub-title">Wishlist</span>
-                            </li>
-                        </ul>
+                    <div class="d-inline nav-padding kids pointer">KIDS
+                        <div class="container men-dress-details">
+                            <div class="row">
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>TopWear</b></div>
+                                    <div class="desktopHoverLink">T-Shirts</div>
+                                    <div class="desktopHoverLink">Casual Shirts</div>
+                                    <div class="desktopHoverLink"> Formal Shirts</div>
+                                    <div class="desktopHoverLink"> Sweatshirts</div>
+                                    <div class="desktopHoverLink"> Sweaters</div>
+                                    <div class="desktopHoverLink">Jackets</div>
+                                    <div class="desktopHoverLink">Blazers & Coats</div>
+                                    <div class="desktopHoverLink"> Suits</div>
+                                    <div class="desktopHoverLink">Rain Jackets</div><hr class="headerRule">
+                                    <div class="headerColor headerSpecs"><b>Indian Festive Wear</b></div>
+                                    <div class="desktopHoverLink">Kurtas & Kurta Sets</div>
+                                    <div class="desktopHoverLink">Sherwanis</div>
+                                    <div class="desktopHoverLink">Nehru Jackets</div>
+                                    <div class="desktopHoverLink">Dhotis</div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Bottom Wear</b></div>
+                                    <div class="desktopHoverLink">Jeans</div>
+                                    <div class="desktopHoverLink">Casual Trousers</div>
+                                    <div class="desktopHoverLink">Formal Trousers</div>     
+                                    <div class="desktopHoverLink">Shorts</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Innerwear & SleepWears</b></div>
+                                    <div class="desktopHoverLink">Briefs & Trunks</div>
+                                    <div class="desktopHoverLink">Boxers</div>
+                                    <div class="desktopHoverLink">Vests</div>
+                                    <div class="desktopHoverLink">Sleepwear & Loungewear</div>
+                                    <div class="desktopHoverLink">Thermals</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Plus Size</b></div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Foot Wear</b></div>
+                                    <div class="desktopHoverLink">Casual Shoes</div>
+                                    <div class="desktopHoverLink">Sports Shoes</div>
+                                    <div class="desktopHoverLink">Formal Shoes</div>     
+                                    <div class="desktopHoverLink">Sneakers</div>
+                                    <div class="desktopHoverLink">Sandals & Floaters</div>
+                                    <div class="desktopHoverLink">Flip Flops</div>
+                                    <div class="desktopHoverLink">Socks</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Personal Care & Grooming</b></div>
+                                    <div class="headerSpecs headerColor"><b>Sunglasses & Frames</b></div>
+                                    <div class="headerSpecs headerColor"><b>Watches</b></div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Sports & Active Wear</b></div>
+                                    <div class="desktopHoverLink">Sports Shoes</div>
+                                    <div class="desktopHoverLink">Sports Sandals</div>
+                                    <div class="desktopHoverLink">Active T-Shirts</div>     
+                                    <div class="desktopHoverLink">Track Pants & Shorts</div>
+                                    <div class="desktopHoverLink">Tracksuits</div>
+                                    <div class="desktopHoverLink">Jackets & Sweatshirts</div>
+                                    <div class="desktopHoverLink">Sports Accessories</div>
+                                    <div class="desktopHoverLink">Swimwear</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Gadgets</b></div>
+                                    <div class="desktopHoverLink">Fitness Gadgets</div>
+                                    <div class="desktopHoverLink">Headphones</div>
+                                    <div class="desktopHoverLink">Speakers</div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Fashion Accessories</b></div>
+                                    <div class="desktopHoverLink">Wallets</div>
+                                    <div class="desktopHoverLink">Belts</div>
+                                    <div class="desktopHoverLink">Perfumes & Body Mists</div>     
+                                    <div class="desktopHoverLink">Trimmers</div>
+                                    <div class="desktopHoverLink">Deodorants</div>
+                                    <div class="desktopHoverLink">Ties, Cufflinks & Pocket Squares</div>
+                                    <div class="desktopHoverLink">Accessory Gift Sets</div>
+                                    <div class="desktopHoverLink">Caps & Hats</div>
+                                    <div class="desktopHoverLink">Mufflers, Scarves & Gloves</div>
+                                    <div class="desktopHoverLink">Phone Cases</div>
+                                    <div class="desktopHoverLink">Rings & Wristwear</div>
+                                    <div class="desktopHoverLink">Helmets</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Bags & Backpacks</b></div>
+                                    <div class="headerSpecs headerColor"><b>Luggages & Trolleys</b></div>
+                                </div>
+                            </div>
+                        </div>                 
+                    </div>
+                    <div class="d-inline nav-padding home pointer">HOME & LIVING
+                        <div class="container men-dress-details">
+                            <div class="row">
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>TopWear</b></div>
+                                    <div class="desktopHoverLink">T-Shirts</div>
+                                    <div class="desktopHoverLink">Casual Shirts</div>
+                                    <div class="desktopHoverLink"> Formal Shirts</div>
+                                    <div class="desktopHoverLink"> Sweatshirts</div>
+                                    <div class="desktopHoverLink"> Sweaters</div>
+                                    <div class="desktopHoverLink">Jackets</div>
+                                    <div class="desktopHoverLink">Blazers & Coats</div>
+                                    <div class="desktopHoverLink"> Suits</div>
+                                    <div class="desktopHoverLink">Rain Jackets</div><hr class="headerRule">
+                                    <div class="headerColor headerSpecs"><b>Indian Festive Wear</b></div>
+                                    <div class="desktopHoverLink">Kurtas & Kurta Sets</div>
+                                    <div class="desktopHoverLink">Sherwanis</div>
+                                    <div class="desktopHoverLink">Nehru Jackets</div>
+                                    <div class="desktopHoverLink">Dhotis</div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Bottom Wear</b></div>
+                                    <div class="desktopHoverLink">Jeans</div>
+                                    <div class="desktopHoverLink">Casual Trousers</div>
+                                    <div class="desktopHoverLink">Formal Trousers</div>     
+                                    <div class="desktopHoverLink">Shorts</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Innerwear & SleepWears</b></div>
+                                    <div class="desktopHoverLink">Briefs & Trunks</div>
+                                    <div class="desktopHoverLink">Boxers</div>
+                                    <div class="desktopHoverLink">Vests</div>
+                                    <div class="desktopHoverLink">Sleepwear & Loungewear</div>
+                                    <div class="desktopHoverLink">Thermals</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Plus Size</b></div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Foot Wear</b></div>
+                                    <div class="desktopHoverLink">Casual Shoes</div>
+                                    <div class="desktopHoverLink">Sports Shoes</div>
+                                    <div class="desktopHoverLink">Formal Shoes</div>     
+                                    <div class="desktopHoverLink">Sneakers</div>
+                                    <div class="desktopHoverLink">Sandals & Floaters</div>
+                                    <div class="desktopHoverLink">Flip Flops</div>
+                                    <div class="desktopHoverLink">Socks</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Personal Care & Grooming</b></div>
+                                    <div class="headerSpecs headerColor"><b>Sunglasses & Frames</b></div>
+                                    <div class="headerSpecs headerColor"><b>Watches</b></div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Sports & Active Wear</b></div>
+                                    <div class="desktopHoverLink">Sports Shoes</div>
+                                    <div class="desktopHoverLink">Sports Sandals</div>
+                                    <div class="desktopHoverLink">Active T-Shirts</div>     
+                                    <div class="desktopHoverLink">Track Pants & Shorts</div>
+                                    <div class="desktopHoverLink">Tracksuits</div>
+                                    <div class="desktopHoverLink">Jackets & Sweatshirts</div>
+                                    <div class="desktopHoverLink">Sports Accessories</div>
+                                    <div class="desktopHoverLink">Swimwear</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Gadgets</b></div>
+                                    <div class="desktopHoverLink">Fitness Gadgets</div>
+                                    <div class="desktopHoverLink">Headphones</div>
+                                    <div class="desktopHoverLink">Speakers</div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Fashion Accessories</b></div>
+                                    <div class="desktopHoverLink">Wallets</div>
+                                    <div class="desktopHoverLink">Belts</div>
+                                    <div class="desktopHoverLink">Perfumes & Body Mists</div>     
+                                    <div class="desktopHoverLink">Trimmers</div>
+                                    <div class="desktopHoverLink">Deodorants</div>
+                                    <div class="desktopHoverLink">Ties, Cufflinks & Pocket Squares</div>
+                                    <div class="desktopHoverLink">Accessory Gift Sets</div>
+                                    <div class="desktopHoverLink">Caps & Hats</div>
+                                    <div class="desktopHoverLink">Mufflers, Scarves & Gloves</div>
+                                    <div class="desktopHoverLink">Phone Cases</div>
+                                    <div class="desktopHoverLink">Rings & Wristwear</div>
+                                    <div class="desktopHoverLink">Helmets</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Bags & Backpacks</b></div>
+                                    <div class="headerSpecs headerColor"><b>Luggages & Trolleys</b></div>
+                                </div>
+                            </div>
+                        </div>                 
+                    </div>
+                    <div class="d-inline nav-padding beauty pointer">BEAUTY
+                        <div class="container men-dress-details">
+                            <div class="row">
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>TopWear</b></div>
+                                    <div class="desktopHoverLink">T-Shirts</div>
+                                    <div class="desktopHoverLink">Casual Shirts</div>
+                                    <div class="desktopHoverLink"> Formal Shirts</div>
+                                    <div class="desktopHoverLink"> Sweatshirts</div>
+                                    <div class="desktopHoverLink"> Sweaters</div>
+                                    <div class="desktopHoverLink">Jackets</div>
+                                    <div class="desktopHoverLink">Blazers & Coats</div>
+                                    <div class="desktopHoverLink"> Suits</div>
+                                    <div class="desktopHoverLink">Rain Jackets</div><hr class="headerRule">
+                                    <div class="headerColor headerSpecs"><b>Indian Festive Wear</b></div>
+                                    <div class="desktopHoverLink">Kurtas & Kurta Sets</div>
+                                    <div class="desktopHoverLink">Sherwanis</div>
+                                    <div class="desktopHoverLink">Nehru Jackets</div>
+                                    <div class="desktopHoverLink">Dhotis</div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Bottom Wear</b></div>
+                                    <div class="desktopHoverLink">Jeans</div>
+                                    <div class="desktopHoverLink">Casual Trousers</div>
+                                    <div class="desktopHoverLink">Formal Trousers</div>     
+                                    <div class="desktopHoverLink">Shorts</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Innerwear & SleepWears</b></div>
+                                    <div class="desktopHoverLink">Briefs & Trunks</div>
+                                    <div class="desktopHoverLink">Boxers</div>
+                                    <div class="desktopHoverLink">Vests</div>
+                                    <div class="desktopHoverLink">Sleepwear & Loungewear</div>
+                                    <div class="desktopHoverLink">Thermals</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Plus Size</b></div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Foot Wear</b></div>
+                                    <div class="desktopHoverLink">Casual Shoes</div>
+                                    <div class="desktopHoverLink">Sports Shoes</div>
+                                    <div class="desktopHoverLink">Formal Shoes</div>     
+                                    <div class="desktopHoverLink">Sneakers</div>
+                                    <div class="desktopHoverLink">Sandals & Floaters</div>
+                                    <div class="desktopHoverLink">Flip Flops</div>
+                                    <div class="desktopHoverLink">Socks</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Personal Care & Grooming</b></div>
+                                    <div class="headerSpecs headerColor"><b>Sunglasses & Frames</b></div>
+                                    <div class="headerSpecs headerColor"><b>Watches</b></div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Sports & Active Wear</b></div>
+                                    <div class="desktopHoverLink">Sports Shoes</div>
+                                    <div class="desktopHoverLink">Sports Sandals</div>
+                                    <div class="desktopHoverLink">Active T-Shirts</div>     
+                                    <div class="desktopHoverLink">Track Pants & Shorts</div>
+                                    <div class="desktopHoverLink">Tracksuits</div>
+                                    <div class="desktopHoverLink">Jackets & Sweatshirts</div>
+                                    <div class="desktopHoverLink">Sports Accessories</div>
+                                    <div class="desktopHoverLink">Swimwear</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Gadgets</b></div>
+                                    <div class="desktopHoverLink">Fitness Gadgets</div>
+                                    <div class="desktopHoverLink">Headphones</div>
+                                    <div class="desktopHoverLink">Speakers</div>
+                                </div>
+                                <div class="col pb-5">
+                                    <div class="header headerColor"><b>Fashion Accessories</b></div>
+                                    <div class="desktopHoverLink">Wallets</div>
+                                    <div class="desktopHoverLink">Belts</div>
+                                    <div class="desktopHoverLink">Perfumes & Body Mists</div>     
+                                    <div class="desktopHoverLink">Trimmers</div>
+                                    <div class="desktopHoverLink">Deodorants</div>
+                                    <div class="desktopHoverLink">Ties, Cufflinks & Pocket Squares</div>
+                                    <div class="desktopHoverLink">Accessory Gift Sets</div>
+                                    <div class="desktopHoverLink">Caps & Hats</div>
+                                    <div class="desktopHoverLink">Mufflers, Scarves & Gloves</div>
+                                    <div class="desktopHoverLink">Phone Cases</div>
+                                    <div class="desktopHoverLink">Rings & Wristwear</div>
+                                    <div class="desktopHoverLink">Helmets</div><hr class="headerRule">
+                                    <div class="headerSpecs headerColor"><b>Bags & Backpacks</b></div>
+                                    <div class="headerSpecs headerColor"><b>Luggages & Trolleys</b></div>
+                                </div>
+                            </div>
+                        </div>                 
+                    </div>
+                    <div class="d-inline nav-padding studio pointer">STUDIO <sup class="new">NEW</sup>
+                        <div class="container studio-details w-50">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="assets/images/studio-nav-banner.png" class="img-fluid" alt="studio_Image">
+                                </div>
+                            </div>
+                        </div></div>
+                </div>
+                <div class="col-xl-4 col-lg-3 col-sm-5 col-8">
+                    <form id="form">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" class="searchBar" placeholder="Search for products, brands and more">
+                    </form>
+                </div>
+                <div class="col-lg-2 col-sm-4 d-sm-inline-block d-none px-0 ">
+                    <div class="d-inline-block navbar-icons text-center">
+                        <i class="fa-solid fa-circle-user"></i><br>
+                        <div class="navbar-icon-font">profile</div>
+                    </div>
+                    <div class="d-inline-block navbar-icons text-center">
+                        <i class="fa-solid fa-bag-shopping"></i><br>
+                        <div class="navbar-icon-font">Bag</div>
+                    </div>
+                    <div class="d-inline-block text-center">
+                        <i class="fa-regular fa-heart"></i><br>
+                        <div class="navbar-icon-font">Wishlist</div>
                     </div>
                 </div>
             </div>
