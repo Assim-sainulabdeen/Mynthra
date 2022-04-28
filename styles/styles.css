@@ -85,6 +85,7 @@ body {
 }
 .men-dress-details {
   position: absolute;
+  z-index: -1030;
   top: 100%;
   left: 10%;
   background-color: white;
@@ -101,6 +102,19 @@ body {
 .headerColor {
   color: #ee5f73;
 }
+.headerColor1 {
+  color: #fb56c1;
+}
+.headerColor2 {
+  color: #f26a10;
+}
+.headerColor3 {
+  color: #f2c210;
+}
+.headerColor4 {
+  color: #0db7af;
+}
+
 .headerRule {
   width: 90%;
   color: #eaeaec;
@@ -114,7 +128,7 @@ body {
   color: #282c3f;
 }
 .header {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   padding-top: 5px;
 }
 
